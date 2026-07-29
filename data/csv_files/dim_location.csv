@@ -1,0 +1,13 @@
+location_id,region,region_code,district,district_code,ward,village,coordinates_lat,coordinates_lng,urban_rural,population,cdft_office
+LOC-KIL-001,Kilimanjaro,KIL,Moshi Urban,MOSHI-U,Majengo,,-3.3549,37.3436,Urban,185000,Moshi Field Office
+LOC-KIL-002,Kilimanjaro,KIL,Moshi Rural,MOSHI-R,Uchira,Kiboriloni,-3.4012,37.2891,Rural,95000,Moshi Field Office
+LOC-KIL-003,Kilimanjaro,KIL,Haii,HAI,Sanya Juu,Bomangombe,-3.2234,37.1456,Rural,78000,Moshi Field Office
+LOC-KIL-004,Kilimanjaro,KIL,Rombo,ROMBO,Mkuu,Tarakea,-3.1823,37.6234,Rural,62000,Moshi Field Office
+LOC-ARU-001,Arusha,ARU,Arusha Urban,ARU-U,Kaloleni,,-3.3869,36.683,Urban,416000,Arusha Regional Office
+LOC-ARU-002,Arusha,ARU,Arusha Rural,ARU-R,Ngarenanyuki,Maji ya Chai,-3.2145,36.7823,Rural,134000,Arusha Regional Office
+LOC-ARU-003,Arusha,ARU,Monduli,MONDULI,Monduli Juu,Lolkisale,-3.3012,36.4567,Rural,88000,Arusha Regional Office
+LOC-ARU-004,Arusha,ARU,Longido,LONGIDO,Longido,Gelai Lumbwa,-2.7456,36.6912,Rural,45000,Arusha Regional Office
+LOC-MAN-001,Manyara,MAN,Babati Urban,BAB-U,Babati,,-3.7823,35.7456,Urban,95000,Babati Field Office
+LOC-MAN-002,Manyara,MAN,Babatti Rural,BAB-R,Magugu,Seloto,-3.8912,35.6234,Rural,112000,Babati Field Office
+LOC-MAN-003,Manyara,MAN,Mbulu,MBULU,Tlawi,Gendabi,-3.8456,35.5123,Rural,98000,Babati Field Office
+LOC-MAN-004,Manyara,MAN,Hanang,HANANG,Katesh,Gidangheru,-4.4123,35.3456,Rural,67000,Babati Field Office

@@ -1,0 +1,9 @@
+donor_id,donor_name,donor_short_name,donor_type,donor_country,donor_currency,reporting_frequency,compliance_level,contact_name,contact_email,portal_url,is_active,created_date,notes
+DNR-001,United States Agency for International Development,USAID,Bilateral,United States,USD,Quarterly,High,James Okafor,j.okafor@usaid.gov,grants.usaid.gov,True,2019-01-15,Requires quarterly FFR and annual audit
+DNR-002,United Nations Childrens Fund,UNICEF,Multilateral,United States,USD,Semi-annual,High,Fatima Al-Hassan,f.alhassan@unicef.org,supply.unicef.org,True,2018-06-01,HACT compliance framework applies
+DNR-003,Global Fund to Fight AIDS Tuberculosis and Malaria,Global Fund,Multilateral,Switzerland,USD,Quarterly,High,Pierre Dubois,p.dubois@theglobalfund.org,portal.theglobalfund.org,True,2020-03-10,LFA oversight required for all transactions above USD 50000
+DNR-004,Foreign Commonwealth and Development Office,FCDO,Bilateral,United Kingdom,GBP,Quarterly,High,Sarah Thompson,s.thompson@fcdo.gov.uk,devtracker.fcdo.gov.uk,True,2019-09-01,Results framework mandatory. DFID procurement rules apply
+DNR-005,World Bank Group,World Bank,Multilateral,United States,USD,Semi-annual,High,Amara Diallo,a.diallo@worldbank.org,projects.worldbank.org,True,2021-01-20,Procurement must follow World Bank guidelines
+DNR-006,European Union Directorate General for International Partnerships,EU INTPA,Bilateral,Belgium,EUR,Semi-annual,High,Maria Kovacs,m.kovacs@ec.europa.eu,ec.europa.eu/intpa,True,2020-07-15,PRAG procurement rules. Euro reporting required
+DNR-007,Aga Khan Foundation Tanzania,AKF,Foundation,Tanzania,TZS,Quarterly,Medium,Zakia Rashid,z.rashid@akf.or.tz,akdn.org,True,2018-01-10,Focus on education and economic empowerment programmes
+DNR-008,Government of Tanzania Ministry of Health,MoH Tanzania,Government,Tanzania,TZS,Quarterly,Medium,Dr Emmanuel Mwangi,e.mwangi@moh.go.tz,moh.go.tz,True,2022-01-01,Co-funding arrangement for health systems strengthening

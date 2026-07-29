@@ -1,0 +1,9 @@
+cost_centre_id,cost_centre_name,cost_centre_type,program_id,location_id,manager_id,is_active
+CC-PRG-HLT,Health Programme,Programme,PRG-001,LOC-KIL-001,STF-005,True
+CC-PRG-EDU,Education Programme,Programme,PRG-002,LOC-ARU-001,STF-008,True
+CC-PRG-WEE,Womens Economic Empowerment Programme,Programme,PRG-003,LOC-KIL-001,STF-012,True
+CC-PRG-CLR,Climate Resilience Programme,Programme,PRG-004,LOC-MAN-001,STF-015,True
+CC-PRG-AGR,Agriculture Programme,Programme,PRG-005,LOC-MAN-001,STF-018,True
+CC-PRG-CHP,Child Protection Programme,Programme,PRG-006,LOC-ARU-001,STF-021,True
+CC-SUP-FIN,Finance and Administration,Support,,LOC-KIL-001,STF-002,True
+CC-OVH-MGT,Senior Management and Overhead,Overhead,,LOC-KIL-001,STF-001,True

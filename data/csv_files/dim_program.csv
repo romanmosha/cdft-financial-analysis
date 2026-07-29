@@ -1,0 +1,7 @@
+program_id,program_name,program_code,strategic_objective,program_director_id,is_active,start_year,description
+PRG-001,Health,HLT,Improve access to quality primary healthcare for communities in northern Tanzania,STF-005,True,2018,"Community health systems strengthening including CHW training, health facility support and disease prevention"
+PRG-002,Education,EDU,Increase access to quality education and reduce school dropout rates,STF-008,True,2018,"School infrastructure, teacher training, scholarship support and literacy programmes"
+PRG-003,Womens Economic Empowerment,WEE,Strengthen economic agency and financial inclusion of women and girls,STF-012,True,2019,"Vocational training, savings groups, microfinance linkages and market access for women entrepreneurs"
+PRG-004,Climate Resilience,CLR,Build community adaptive capacity to climate change impacts,STF-015,True,2020,"Climate smart agriculture, reforestation, water harvesting and disaster risk reduction"
+PRG-005,Agriculture,AGR,Improve smallholder farmer productivity and market access,STF-018,True,2019,"Improved seed distribution, extension services, irrigation support and farmer cooperative development"
+PRG-006,Child Protection,CHP,"Protect children from violence, abuse, exploitation and neglect",STF-021,True,2020,"Community child protection committees, case management, psychosocial support and legal aid referral"

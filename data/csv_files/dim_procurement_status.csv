@@ -1,0 +1,11 @@
+status_id,status_name,status_code,sequence_order,description,next_status_id
+STS-001,Requisition Submitted,REQ,1,Initial purchase request raised by programme staff,STS-002
+STS-002,Budget Check Passed,BDG,2,Finance team confirmed budget availability,STS-003
+STS-003,Procurement Committee Approved,PCA,3,Procurement committee reviewed and approved purchase,STS-004
+STS-004,Quotations Requested,QTR,4,Request for quotation sent to minimum three vendors,STS-005
+STS-005,Quotations Evaluated,QTE,5,Quotations received and evaluated against criteria,STS-006
+STS-006,Purchase Order Raised,POR,6,Official purchase order issued to winning vendor,STS-007
+STS-007,Goods or Services Received,GRN,7,Goods received note or service completion form signed,STS-008
+STS-008,Invoice Received,INV,8,Supplier invoice received and matched to PO,STS-009
+STS-009,Payment Processed,PAY,9,Payment made and bank reference recorded,STS-010
+STS-010,Closed,CLO,10,Procurement record fully closed and filed,

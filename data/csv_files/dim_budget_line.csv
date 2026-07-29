@@ -1,0 +1,230 @@
+budget_line_id,grant_id,line_name,line_code,category,sub_category,approved_amount,revised_amount,currency,flexibility,donor_line_reference,notes
+BDL-0001,GRT-2023-001,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,94614.5,94614.5,USD,Restricted,GRT-2023-001-BL-01,Approved budget line 4.1 for GRT-2023-001
+BDL-0002,GRT-2023-001,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,78846.14,75138.99,USD,Restricted,GRT-2023-001-BL-02,Approved budget line 8.0 for GRT-2023-001
+BDL-0003,GRT-2023-001,Furniture and Fittings,5.1,Equipment,Furniture and Fittings,87430.93,87430.93,USD,Prior Approval Required,GRT-2023-001-BL-03,Approved budget line 5.1 for GRT-2023-001
+BDL-0004,GRT-2023-001,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,58466.14,58466.14,USD,Flexible,GRT-2023-001-BL-04,Approved budget line 2.0 for GRT-2023-001
+BDL-0005,GRT-2023-001,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,72251.37,72251.37,USD,Prior Approval Required,GRT-2023-001-BL-05,Approved budget line 5.0 for GRT-2023-001
+BDL-0006,GRT-2023-001,International Travel,2.1,Travel,International Travel,57472.47,57472.47,USD,Prior Approval Required,GRT-2023-001-BL-06,Approved budget line 2.1 for GRT-2023-001
+BDL-0007,GRT-2023-001,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,71661.53,71661.53,USD,Flexible,GRT-2023-001-BL-07,Approved budget line 6.0 for GRT-2023-001
+BDL-0008,GRT-2023-001,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,60074.9,60074.9,USD,Flexible,GRT-2023-001-BL-08,Approved budget line 3.1 for GRT-2023-001
+BDL-0009,GRT-2023-001,Vehicles,5.2,Equipment,Vehicles,99061.02,99061.02,USD,Prior Approval Required,GRT-2023-001-BL-09,Approved budget line 5.2 for GRT-2023-001
+BDL-0010,GRT-2023-001,Civil Works and Construction,9.0,Construction,Civil Works and Construction,157086.86,157086.86,USD,Prior Approval Required,GRT-2023-001-BL-10,Approved budget line 9.0 for GRT-2023-001
+BDL-0011,GRT-2023-001,Vehicle Fuel and Running Costs,2.2,Travel,Vehicle Fuel and Running Costs,81142.55,81142.55,USD,Flexible,GRT-2023-001-BL-11,Approved budget line 2.2 for GRT-2023-001
+BDL-0012,GRT-2023-001,Construction Materials,9.1,Construction,Construction Materials,244450.24,269494.05,USD,Prior Approval Required,GRT-2023-001-BL-12,Approved budget line 9.1 for GRT-2023-001
+BDL-0013,GRT-2023-001,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,77618.85,77618.85,USD,Prior Approval Required,GRT-2023-001-BL-13,Approved budget line 10.0 for GRT-2023-001
+BDL-0014,GRT-2023-001,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,74199.93,74199.93,USD,Flexible,GRT-2023-001-BL-14,Approved budget line 3.2 for GRT-2023-001
+BDL-0015,GRT-2023-001,Communication and Internet,8.1,Operating Costs,Communication and Internet,45778.22,42378.48,USD,Flexible,GRT-2023-001-BL-15,Approved budget line 8.1 for GRT-2023-001
+BDL-0016,GRT-2023-001,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,154275.93,154275.93,USD,Restricted,GRT-2023-001-BL-16,Approved budget line 7.0 for GRT-2023-001
+BDL-0017,GRT-2023-001,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,233730.15,233730.15,USD,Restricted,GRT-2023-001-BL-17,Approved budget line 1.3 for GRT-2023-001
+BDL-0018,GRT-2023-001,International Staff Salaries,1.1,Personnel,International Staff Salaries,255372.52,255372.52,USD,Prior Approval Required,GRT-2023-001-BL-18,Approved budget line 1.1 for GRT-2023-001
+BDL-0019,GRT-2023-001,Consultancy Fees,1.2,Personnel,Consultancy Fees,209562.53,209562.53,USD,Flexible,GRT-2023-001-BL-19,Approved budget line 1.2 for GRT-2023-001
+BDL-0020,GRT-2023-001,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,70661.38,70661.38,USD,Flexible,GRT-2023-001-BL-20,Approved budget line 6.1 for GRT-2023-001
+BDL-0021,GRT-2023-001,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,91241.84,91241.84,USD,Flexible,GRT-2023-001-BL-21,Approved budget line 3.0 for GRT-2023-001
+BDL-0022,GRT-2023-002,International Travel,2.1,Travel,International Travel,44399.92,44399.92,USD,Prior Approval Required,GRT-2023-002-BL-01,Approved budget line 2.1 for GRT-2023-002
+BDL-0023,GRT-2023-002,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,85555.83,85555.83,USD,Flexible,GRT-2023-002-BL-02,Approved budget line 3.2 for GRT-2023-002
+BDL-0024,GRT-2023-002,National Staff Salaries,1.0,Personnel,National Staff Salaries,159461.34,159461.34,USD,Flexible,GRT-2023-002-BL-03,Approved budget line 1.0 for GRT-2023-002
+BDL-0025,GRT-2023-002,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,78720.05,78720.05,USD,Flexible,GRT-2023-002-BL-04,Approved budget line 6.1 for GRT-2023-002
+BDL-0026,GRT-2023-002,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,29472.22,29472.22,USD,Flexible,GRT-2023-002-BL-05,Approved budget line 2.0 for GRT-2023-002
+BDL-0027,GRT-2023-002,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,26261.4,31147.02,USD,Flexible,GRT-2023-002-BL-06,Approved budget line 3.1 for GRT-2023-002
+BDL-0028,GRT-2023-002,International Staff Salaries,1.1,Personnel,International Staff Salaries,185729.56,200801.49,USD,Prior Approval Required,GRT-2023-002-BL-07,Approved budget line 1.1 for GRT-2023-002
+BDL-0029,GRT-2023-002,Advocacy and Communication,6.2,Programme Activities,Advocacy and Communication,59966.34,59966.34,USD,Flexible,GRT-2023-002-BL-08,Approved budget line 6.2 for GRT-2023-002
+BDL-0030,GRT-2023-002,Construction Materials,9.1,Construction,Construction Materials,163191.05,162045.64,USD,Prior Approval Required,GRT-2023-002-BL-09,Approved budget line 9.1 for GRT-2023-002
+BDL-0031,GRT-2023-002,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,31951.61,31951.61,USD,Restricted,GRT-2023-002-BL-10,Approved budget line 8.0 for GRT-2023-002
+BDL-0032,GRT-2023-002,Medical and Health Supplies,4.0,Programme Supplies,Medical and Health Supplies,75388.21,82733.63,USD,Restricted,GRT-2023-002-BL-11,Approved budget line 4.0 for GRT-2023-002
+BDL-0033,GRT-2023-002,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,84477.38,84477.38,USD,Prior Approval Required,GRT-2023-002-BL-12,Approved budget line 5.0 for GRT-2023-002
+BDL-0034,GRT-2023-002,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,27568.12,27568.12,USD,Flexible,GRT-2023-002-BL-13,Approved budget line 4.2 for GRT-2023-002
+BDL-0035,GRT-2023-002,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,38305.83,38305.83,USD,Flexible,GRT-2023-002-BL-14,Approved budget line 3.0 for GRT-2023-002
+BDL-0036,GRT-2023-002,Communication and Internet,8.1,Operating Costs,Communication and Internet,58718.2,58718.2,USD,Flexible,GRT-2023-002-BL-15,Approved budget line 8.1 for GRT-2023-002
+BDL-0037,GRT-2023-002,Civil Works and Construction,9.0,Construction,Civil Works and Construction,133518.5,133518.5,USD,Prior Approval Required,GRT-2023-002-BL-16,Approved budget line 9.0 for GRT-2023-002
+BDL-0038,GRT-2023-002,Vehicles,5.2,Equipment,Vehicles,100705.18,100705.18,USD,Prior Approval Required,GRT-2023-002-BL-17,Approved budget line 5.2 for GRT-2023-002
+BDL-0039,GRT-2023-002,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,62693.23,62693.23,USD,Restricted,GRT-2023-002-BL-18,Approved budget line 4.1 for GRT-2023-002
+BDL-0040,GRT-2023-002,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,216902.87,216902.87,USD,Restricted,GRT-2023-002-BL-19,Approved budget line 1.3 for GRT-2023-002
+BDL-0041,GRT-2023-002,Vehicle Fuel and Running Costs,2.2,Travel,Vehicle Fuel and Running Costs,47013.18,47013.18,USD,Flexible,GRT-2023-002-BL-20,Approved budget line 2.2 for GRT-2023-002
+BDL-0042,GRT-2022-003,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,54747.33,54747.33,USD,Flexible,GRT-2022-003-BL-01,Approved budget line 2.0 for GRT-2022-003
+BDL-0043,GRT-2022-003,Consultancy Fees,1.2,Personnel,Consultancy Fees,273413.66,273413.66,USD,Flexible,GRT-2022-003-BL-02,Approved budget line 1.2 for GRT-2022-003
+BDL-0044,GRT-2022-003,International Staff Salaries,1.1,Personnel,International Staff Salaries,359894.39,359894.39,USD,Prior Approval Required,GRT-2022-003-BL-03,Approved budget line 1.1 for GRT-2022-003
+BDL-0045,GRT-2022-003,International Travel,2.1,Travel,International Travel,86750.87,84303.31,USD,Prior Approval Required,GRT-2022-003-BL-04,Approved budget line 2.1 for GRT-2022-003
+BDL-0046,GRT-2022-003,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,77230.55,69993.17,USD,Flexible,GRT-2022-003-BL-05,Approved budget line 3.2 for GRT-2022-003
+BDL-0047,GRT-2022-003,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,144354.87,144354.87,USD,Restricted,GRT-2022-003-BL-06,Approved budget line 7.0 for GRT-2022-003
+BDL-0048,GRT-2022-003,Advocacy and Communication,6.2,Programme Activities,Advocacy and Communication,171376.11,171376.11,USD,Flexible,GRT-2022-003-BL-07,Approved budget line 6.2 for GRT-2022-003
+BDL-0049,GRT-2022-003,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,154711.11,154711.11,USD,Restricted,GRT-2022-003-BL-08,Approved budget line 8.0 for GRT-2022-003
+BDL-0050,GRT-2022-003,Furniture and Fittings,5.1,Equipment,Furniture and Fittings,120209.55,105883.09,USD,Prior Approval Required,GRT-2022-003-BL-09,Approved budget line 5.1 for GRT-2022-003
+BDL-0051,GRT-2022-003,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,474290.63,474290.63,USD,Restricted,GRT-2022-003-BL-10,Approved budget line 1.3 for GRT-2022-003
+BDL-0052,GRT-2022-003,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,176359.14,176359.14,USD,Flexible,GRT-2022-003-BL-11,Approved budget line 3.0 for GRT-2022-003
+BDL-0053,GRT-2022-003,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,133054.71,133054.71,USD,Restricted,GRT-2022-003-BL-12,Approved budget line 4.1 for GRT-2022-003
+BDL-0054,GRT-2022-003,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,79763.42,79763.42,USD,Prior Approval Required,GRT-2022-003-BL-13,Approved budget line 10.0 for GRT-2022-003
+BDL-0055,GRT-2022-003,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,49427.05,49427.05,USD,Prior Approval Required,GRT-2022-003-BL-14,Approved budget line 5.0 for GRT-2022-003
+BDL-0056,GRT-2022-003,Vehicle Fuel and Running Costs,2.2,Travel,Vehicle Fuel and Running Costs,144167.21,144167.21,USD,Flexible,GRT-2022-003-BL-15,Approved budget line 2.2 for GRT-2022-003
+BDL-0057,GRT-2022-003,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,106356.73,106356.73,USD,Flexible,GRT-2022-003-BL-16,Approved budget line 4.2 for GRT-2022-003
+BDL-0058,GRT-2022-003,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,130306.32,127260.12,USD,Flexible,GRT-2022-003-BL-17,Approved budget line 3.1 for GRT-2022-003
+BDL-0059,GRT-2022-003,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,165311.16,165311.16,USD,Flexible,GRT-2022-003-BL-18,Approved budget line 6.0 for GRT-2022-003
+BDL-0060,GRT-2022-003,Vehicles,5.2,Equipment,Vehicles,138275.17,130458.43,USD,Prior Approval Required,GRT-2022-003-BL-19,Approved budget line 5.2 for GRT-2022-003
+BDL-0061,GRT-2023-003,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,113453.85,113453.85,GBP,Restricted,GRT-2023-003-BL-01,Approved budget line 1.3 for GRT-2023-003
+BDL-0062,GRT-2023-003,National Staff Salaries,1.0,Personnel,National Staff Salaries,121567.92,121567.92,GBP,Flexible,GRT-2023-003-BL-02,Approved budget line 1.0 for GRT-2023-003
+BDL-0063,GRT-2023-003,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,19305.86,19305.86,GBP,Restricted,GRT-2023-003-BL-03,Approved budget line 8.0 for GRT-2023-003
+BDL-0064,GRT-2023-003,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,76131.98,76131.98,GBP,Restricted,GRT-2023-003-BL-04,Approved budget line 7.0 for GRT-2023-003
+BDL-0065,GRT-2023-003,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,23984.76,23984.76,GBP,Flexible,GRT-2023-003-BL-05,Approved budget line 3.0 for GRT-2023-003
+BDL-0066,GRT-2023-003,International Travel,2.1,Travel,International Travel,41993.15,45945.73,GBP,Prior Approval Required,GRT-2023-003-BL-06,Approved budget line 2.1 for GRT-2023-003
+BDL-0067,GRT-2023-003,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,28155.12,28155.12,GBP,Flexible,GRT-2023-003-BL-07,Approved budget line 3.2 for GRT-2023-003
+BDL-0068,GRT-2023-003,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,40569.9,40569.9,GBP,Flexible,GRT-2023-003-BL-08,Approved budget line 6.1 for GRT-2023-003
+BDL-0069,GRT-2023-003,Construction Materials,9.1,Construction,Construction Materials,92784.22,92784.22,GBP,Prior Approval Required,GRT-2023-003-BL-09,Approved budget line 9.1 for GRT-2023-003
+BDL-0070,GRT-2023-003,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,20393.71,20393.71,GBP,Prior Approval Required,GRT-2023-003-BL-10,Approved budget line 5.0 for GRT-2023-003
+BDL-0071,GRT-2023-003,International Staff Salaries,1.1,Personnel,International Staff Salaries,110960.44,110960.44,GBP,Prior Approval Required,GRT-2023-003-BL-11,Approved budget line 1.1 for GRT-2023-003
+BDL-0072,GRT-2023-003,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,25033.79,25033.79,GBP,Prior Approval Required,GRT-2023-003-BL-12,Approved budget line 10.0 for GRT-2023-003
+BDL-0073,GRT-2023-003,Furniture and Fittings,5.1,Equipment,Furniture and Fittings,42407.33,42407.33,GBP,Prior Approval Required,GRT-2023-003-BL-13,Approved budget line 5.1 for GRT-2023-003
+BDL-0074,GRT-2023-003,Civil Works and Construction,9.0,Construction,Civil Works and Construction,72917.94,72917.94,GBP,Prior Approval Required,GRT-2023-003-BL-14,Approved budget line 9.0 for GRT-2023-003
+BDL-0075,GRT-2023-003,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,38603.5,38603.5,GBP,Flexible,GRT-2023-003-BL-15,Approved budget line 4.2 for GRT-2023-003
+BDL-0076,GRT-2023-003,Consultancy Fees,1.2,Personnel,Consultancy Fees,82681.39,98199.74,GBP,Flexible,GRT-2023-003-BL-16,Approved budget line 1.2 for GRT-2023-003
+BDL-0077,GRT-2023-003,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,21140.05,21140.05,GBP,Restricted,GRT-2023-003-BL-17,Approved budget line 4.1 for GRT-2023-003
+BDL-0078,GRT-2023-003,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,30787.95,35275.72,GBP,Flexible,GRT-2023-003-BL-18,Approved budget line 2.0 for GRT-2023-003
+BDL-0079,GRT-2023-003,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,44570.35,44570.35,GBP,Flexible,GRT-2023-003-BL-19,Approved budget line 3.1 for GRT-2023-003
+BDL-0080,GRT-2023-003,Communication and Internet,8.1,Operating Costs,Communication and Internet,27532.84,27532.84,GBP,Flexible,GRT-2023-003-BL-20,Approved budget line 8.1 for GRT-2023-003
+BDL-0081,GRT-2023-003,Advocacy and Communication,6.2,Programme Activities,Advocacy and Communication,16123.07,16123.07,GBP,Flexible,GRT-2023-003-BL-21,Approved budget line 6.2 for GRT-2023-003
+BDL-0082,GRT-2023-003,Vehicles,5.2,Equipment,Vehicles,48900.86,48900.86,GBP,Prior Approval Required,GRT-2023-003-BL-22,Approved budget line 5.2 for GRT-2023-003
+BDL-0083,GRT-2024-001,Consultancy Fees,1.2,Personnel,Consultancy Fees,475158.65,475158.65,USD,Flexible,GRT-2024-001-BL-01,Approved budget line 1.2 for GRT-2024-001
+BDL-0084,GRT-2024-001,Vehicles,5.2,Equipment,Vehicles,324245.78,324245.78,USD,Prior Approval Required,GRT-2024-001-BL-02,Approved budget line 5.2 for GRT-2024-001
+BDL-0085,GRT-2024-001,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,123338.29,112395.01,USD,Flexible,GRT-2024-001-BL-03,Approved budget line 3.1 for GRT-2024-001
+BDL-0086,GRT-2024-001,Medical and Health Supplies,4.0,Programme Supplies,Medical and Health Supplies,111437.34,111437.34,USD,Restricted,GRT-2024-001-BL-04,Approved budget line 4.0 for GRT-2024-001
+BDL-0087,GRT-2024-001,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,325110.58,325110.58,USD,Restricted,GRT-2024-001-BL-05,Approved budget line 7.0 for GRT-2024-001
+BDL-0088,GRT-2024-001,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,260634.84,260634.84,USD,Flexible,GRT-2024-001-BL-06,Approved budget line 4.2 for GRT-2024-001
+BDL-0089,GRT-2024-001,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,217323.63,233246.2,USD,Prior Approval Required,GRT-2024-001-BL-07,Approved budget line 10.0 for GRT-2024-001
+BDL-0090,GRT-2024-001,Communication and Internet,8.1,Operating Costs,Communication and Internet,206101.03,233228.37,USD,Flexible,GRT-2024-001-BL-08,Approved budget line 8.1 for GRT-2024-001
+BDL-0091,GRT-2024-001,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,86206.04,101794.89,USD,Restricted,GRT-2024-001-BL-09,Approved budget line 8.0 for GRT-2024-001
+BDL-0092,GRT-2024-001,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,99292.23,99292.23,USD,Flexible,GRT-2024-001-BL-10,Approved budget line 6.1 for GRT-2024-001
+BDL-0093,GRT-2024-001,Construction Materials,9.1,Construction,Construction Materials,364114.62,364114.62,USD,Prior Approval Required,GRT-2024-001-BL-11,Approved budget line 9.1 for GRT-2024-001
+BDL-0094,GRT-2024-001,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,71986.75,71986.75,USD,Restricted,GRT-2024-001-BL-12,Approved budget line 4.1 for GRT-2024-001
+BDL-0095,GRT-2024-001,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,130689.49,130689.49,USD,Flexible,GRT-2024-001-BL-13,Approved budget line 6.0 for GRT-2024-001
+BDL-0096,GRT-2024-001,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,77385.95,77385.95,USD,Flexible,GRT-2024-001-BL-14,Approved budget line 3.0 for GRT-2024-001
+BDL-0097,GRT-2024-001,Civil Works and Construction,9.0,Construction,Civil Works and Construction,383652.98,383652.98,USD,Prior Approval Required,GRT-2024-001-BL-15,Approved budget line 9.0 for GRT-2024-001
+BDL-0098,GRT-2024-001,National Staff Salaries,1.0,Personnel,National Staff Salaries,540041.12,531118.29,USD,Flexible,GRT-2024-001-BL-16,Approved budget line 1.0 for GRT-2024-001
+BDL-0099,GRT-2024-001,International Staff Salaries,1.1,Personnel,International Staff Salaries,478280.69,478280.69,USD,Prior Approval Required,GRT-2024-001-BL-17,Approved budget line 1.1 for GRT-2024-001
+BDL-0100,GRT-2023-004,National Staff Salaries,1.0,Personnel,National Staff Salaries,172920.71,172920.71,EUR,Flexible,GRT-2023-004-BL-01,Approved budget line 1.0 for GRT-2023-004
+BDL-0101,GRT-2023-004,Communication and Internet,8.1,Operating Costs,Communication and Internet,76847.99,76847.99,EUR,Flexible,GRT-2023-004-BL-02,Approved budget line 8.1 for GRT-2023-004
+BDL-0102,GRT-2023-004,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,29814.53,29814.53,EUR,Flexible,GRT-2023-004-BL-03,Approved budget line 4.2 for GRT-2023-004
+BDL-0103,GRT-2023-004,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,89737.61,89737.61,EUR,Flexible,GRT-2023-004-BL-04,Approved budget line 3.1 for GRT-2023-004
+BDL-0104,GRT-2023-004,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,29329.98,29329.98,EUR,Prior Approval Required,GRT-2023-004-BL-05,Approved budget line 10.0 for GRT-2023-004
+BDL-0105,GRT-2023-004,Advocacy and Communication,6.2,Programme Activities,Advocacy and Communication,55844.43,62208.07,EUR,Flexible,GRT-2023-004-BL-06,Approved budget line 6.2 for GRT-2023-004
+BDL-0106,GRT-2023-004,International Staff Salaries,1.1,Personnel,International Staff Salaries,177486.18,177486.18,EUR,Prior Approval Required,GRT-2023-004-BL-07,Approved budget line 1.1 for GRT-2023-004
+BDL-0107,GRT-2023-004,Vehicles,5.2,Equipment,Vehicles,151535.04,151535.04,EUR,Prior Approval Required,GRT-2023-004-BL-08,Approved budget line 5.2 for GRT-2023-004
+BDL-0108,GRT-2023-004,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,52793.67,52793.67,EUR,Flexible,GRT-2023-004-BL-09,Approved budget line 3.2 for GRT-2023-004
+BDL-0109,GRT-2023-004,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,59894.97,62159.02,EUR,Flexible,GRT-2023-004-BL-10,Approved budget line 3.0 for GRT-2023-004
+BDL-0110,GRT-2023-004,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,42721.73,42721.73,EUR,Flexible,GRT-2023-004-BL-11,Approved budget line 6.0 for GRT-2023-004
+BDL-0111,GRT-2023-004,Civil Works and Construction,9.0,Construction,Civil Works and Construction,211492.87,211492.87,EUR,Prior Approval Required,GRT-2023-004-BL-12,Approved budget line 9.0 for GRT-2023-004
+BDL-0112,GRT-2023-004,International Travel,2.1,Travel,International Travel,96764.22,96764.22,EUR,Prior Approval Required,GRT-2023-004-BL-13,Approved budget line 2.1 for GRT-2023-004
+BDL-0113,GRT-2023-004,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,208739.38,208739.38,EUR,Restricted,GRT-2023-004-BL-14,Approved budget line 1.3 for GRT-2023-004
+BDL-0114,GRT-2023-004,Medical and Health Supplies,4.0,Programme Supplies,Medical and Health Supplies,66796.93,66796.93,EUR,Restricted,GRT-2023-004-BL-15,Approved budget line 4.0 for GRT-2023-004
+BDL-0115,GRT-2023-004,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,48459.19,48459.19,EUR,Restricted,GRT-2023-004-BL-16,Approved budget line 4.1 for GRT-2023-004
+BDL-0116,GRT-2023-004,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,39822.28,39822.28,EUR,Flexible,GRT-2023-004-BL-17,Approved budget line 2.0 for GRT-2023-004
+BDL-0117,GRT-2023-004,Consultancy Fees,1.2,Personnel,Consultancy Fees,281816.99,281816.99,EUR,Flexible,GRT-2023-004-BL-18,Approved budget line 1.2 for GRT-2023-004
+BDL-0118,GRT-2023-004,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,102181.31,102181.31,EUR,Prior Approval Required,GRT-2023-004-BL-19,Approved budget line 5.0 for GRT-2023-004
+BDL-0119,GRT-2022-004,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,19864.21,19864.21,TZS,Restricted,GRT-2022-004-BL-01,Approved budget line 7.0 for GRT-2022-004
+BDL-0120,GRT-2022-004,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,17488.01,16553.42,TZS,Flexible,GRT-2022-004-BL-02,Approved budget line 3.0 for GRT-2022-004
+BDL-0121,GRT-2022-004,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,14040.12,14040.12,TZS,Restricted,GRT-2022-004-BL-03,Approved budget line 8.0 for GRT-2022-004
+BDL-0122,GRT-2022-004,Consultancy Fees,1.2,Personnel,Consultancy Fees,39541.81,39541.81,TZS,Flexible,GRT-2022-004-BL-04,Approved budget line 1.2 for GRT-2022-004
+BDL-0123,GRT-2022-004,Civil Works and Construction,9.0,Construction,Civil Works and Construction,31524.07,31524.07,TZS,Prior Approval Required,GRT-2022-004-BL-05,Approved budget line 9.0 for GRT-2022-004
+BDL-0124,GRT-2022-004,Furniture and Fittings,5.1,Equipment,Furniture and Fittings,14450.7,16262.5,TZS,Prior Approval Required,GRT-2022-004-BL-06,Approved budget line 5.1 for GRT-2022-004
+BDL-0125,GRT-2022-004,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,16615.91,16615.91,TZS,Flexible,GRT-2022-004-BL-07,Approved budget line 3.2 for GRT-2022-004
+BDL-0126,GRT-2022-004,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,13473.48,15060.72,TZS,Prior Approval Required,GRT-2022-004-BL-08,Approved budget line 5.0 for GRT-2022-004
+BDL-0127,GRT-2022-004,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,46210.93,46210.93,TZS,Restricted,GRT-2022-004-BL-09,Approved budget line 1.3 for GRT-2022-004
+BDL-0128,GRT-2022-004,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,12938.09,14503.97,TZS,Flexible,GRT-2022-004-BL-10,Approved budget line 2.0 for GRT-2022-004
+BDL-0129,GRT-2022-004,National Staff Salaries,1.0,Personnel,National Staff Salaries,48604.99,48604.99,TZS,Flexible,GRT-2022-004-BL-11,Approved budget line 1.0 for GRT-2022-004
+BDL-0130,GRT-2022-004,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,8358.4,7484.92,TZS,Prior Approval Required,GRT-2022-004-BL-12,Approved budget line 10.0 for GRT-2022-004
+BDL-0131,GRT-2022-004,Vehicles,5.2,Equipment,Vehicles,22340.85,22340.85,TZS,Prior Approval Required,GRT-2022-004-BL-13,Approved budget line 5.2 for GRT-2022-004
+BDL-0132,GRT-2022-004,Construction Materials,9.1,Construction,Construction Materials,23115.08,19768.04,TZS,Prior Approval Required,GRT-2022-004-BL-14,Approved budget line 9.1 for GRT-2022-004
+BDL-0133,GRT-2022-004,International Staff Salaries,1.1,Personnel,International Staff Salaries,37371.88,35237.15,TZS,Prior Approval Required,GRT-2022-004-BL-15,Approved budget line 1.1 for GRT-2022-004
+BDL-0134,GRT-2022-004,Medical and Health Supplies,4.0,Programme Supplies,Medical and Health Supplies,7763.6,6771.76,TZS,Restricted,GRT-2022-004-BL-16,Approved budget line 4.0 for GRT-2022-004
+BDL-0135,GRT-2022-004,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,9489.25,9489.25,TZS,Flexible,GRT-2022-004-BL-17,Approved budget line 6.0 for GRT-2022-004
+BDL-0136,GRT-2022-004,Communication and Internet,8.1,Operating Costs,Communication and Internet,17918.11,17918.11,TZS,Flexible,GRT-2022-004-BL-18,Approved budget line 8.1 for GRT-2022-004
+BDL-0137,GRT-2022-004,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,9552.63,10176.3,TZS,Flexible,GRT-2022-004-BL-19,Approved budget line 3.1 for GRT-2022-004
+BDL-0138,GRT-2022-004,Vehicle Fuel and Running Costs,2.2,Travel,Vehicle Fuel and Running Costs,16837.9,16837.9,TZS,Flexible,GRT-2022-004-BL-20,Approved budget line 2.2 for GRT-2022-004
+BDL-0139,GRT-2023-005,International Staff Salaries,1.1,Personnel,International Staff Salaries,43368799.27,43368799.27,TZS,Prior Approval Required,GRT-2023-005-BL-01,Approved budget line 1.1 for GRT-2023-005
+BDL-0140,GRT-2023-005,Vehicles,5.2,Equipment,Vehicles,21627262.98,21627262.98,TZS,Prior Approval Required,GRT-2023-005-BL-02,Approved budget line 5.2 for GRT-2023-005
+BDL-0141,GRT-2023-005,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,14912364.18,14912364.18,TZS,Flexible,GRT-2023-005-BL-03,Approved budget line 4.2 for GRT-2023-005
+BDL-0142,GRT-2023-005,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,10187579.61,10187579.61,TZS,Prior Approval Required,GRT-2023-005-BL-04,Approved budget line 5.0 for GRT-2023-005
+BDL-0143,GRT-2023-005,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,42728706.39,42728706.39,TZS,Restricted,GRT-2023-005-BL-05,Approved budget line 1.3 for GRT-2023-005
+BDL-0144,GRT-2023-005,Construction Materials,9.1,Construction,Construction Materials,26028583.68,26028583.68,TZS,Prior Approval Required,GRT-2023-005-BL-06,Approved budget line 9.1 for GRT-2023-005
+BDL-0145,GRT-2023-005,Furniture and Fittings,5.1,Equipment,Furniture and Fittings,11965486.14,11965486.14,TZS,Prior Approval Required,GRT-2023-005-BL-07,Approved budget line 5.1 for GRT-2023-005
+BDL-0146,GRT-2023-005,Consultancy Fees,1.2,Personnel,Consultancy Fees,38754102.59,38754102.59,TZS,Flexible,GRT-2023-005-BL-08,Approved budget line 1.2 for GRT-2023-005
+BDL-0147,GRT-2023-005,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,16066904.53,16066904.53,TZS,Flexible,GRT-2023-005-BL-09,Approved budget line 6.1 for GRT-2023-005
+BDL-0148,GRT-2023-005,Medical and Health Supplies,4.0,Programme Supplies,Medical and Health Supplies,6386476.29,6386476.29,TZS,Restricted,GRT-2023-005-BL-10,Approved budget line 4.0 for GRT-2023-005
+BDL-0149,GRT-2023-005,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,14093067.04,14093067.04,TZS,Flexible,GRT-2023-005-BL-11,Approved budget line 3.2 for GRT-2023-005
+BDL-0150,GRT-2023-005,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,17273746.86,15198781.64,TZS,Flexible,GRT-2023-005-BL-12,Approved budget line 6.0 for GRT-2023-005
+BDL-0151,GRT-2023-005,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,12618531.61,12618531.61,TZS,Prior Approval Required,GRT-2023-005-BL-13,Approved budget line 10.0 for GRT-2023-005
+BDL-0152,GRT-2023-005,Communication and Internet,8.1,Operating Costs,Communication and Internet,17099533.09,17099533.09,TZS,Flexible,GRT-2023-005-BL-14,Approved budget line 8.1 for GRT-2023-005
+BDL-0153,GRT-2023-005,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,10888855.75,10888855.75,TZS,Flexible,GRT-2023-005-BL-15,Approved budget line 2.0 for GRT-2023-005
+BDL-0154,GRT-2024-002,Communication and Internet,8.1,Operating Costs,Communication and Internet,40413.76,40413.76,USD,Flexible,GRT-2024-002-BL-01,Approved budget line 8.1 for GRT-2024-002
+BDL-0155,GRT-2024-002,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,188607.27,202113.48,USD,Restricted,GRT-2024-002-BL-02,Approved budget line 1.3 for GRT-2024-002
+BDL-0156,GRT-2024-002,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,52322.85,52322.85,USD,Prior Approval Required,GRT-2024-002-BL-03,Approved budget line 5.0 for GRT-2024-002
+BDL-0157,GRT-2024-002,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,65764.69,65764.69,USD,Restricted,GRT-2024-002-BL-04,Approved budget line 4.1 for GRT-2024-002
+BDL-0158,GRT-2024-002,Civil Works and Construction,9.0,Construction,Civil Works and Construction,158100.14,158100.14,USD,Prior Approval Required,GRT-2024-002-BL-05,Approved budget line 9.0 for GRT-2024-002
+BDL-0159,GRT-2024-002,International Staff Salaries,1.1,Personnel,International Staff Salaries,208974.89,200422.19,USD,Prior Approval Required,GRT-2024-002-BL-06,Approved budget line 1.1 for GRT-2024-002
+BDL-0160,GRT-2024-002,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,66410.8,57672.01,USD,Flexible,GRT-2024-002-BL-07,Approved budget line 3.2 for GRT-2024-002
+BDL-0161,GRT-2024-002,Advocacy and Communication,6.2,Programme Activities,Advocacy and Communication,54598.89,54598.89,USD,Flexible,GRT-2024-002-BL-08,Approved budget line 6.2 for GRT-2024-002
+BDL-0162,GRT-2024-002,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,56278.29,56278.29,USD,Prior Approval Required,GRT-2024-002-BL-09,Approved budget line 10.0 for GRT-2024-002
+BDL-0163,GRT-2024-002,Construction Materials,9.1,Construction,Construction Materials,79403.36,79403.36,USD,Prior Approval Required,GRT-2024-002-BL-10,Approved budget line 9.1 for GRT-2024-002
+BDL-0164,GRT-2024-002,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,72791.33,72791.33,USD,Flexible,GRT-2024-002-BL-11,Approved budget line 6.1 for GRT-2024-002
+BDL-0165,GRT-2024-002,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,67047.02,67047.02,USD,Flexible,GRT-2024-002-BL-12,Approved budget line 3.1 for GRT-2024-002
+BDL-0166,GRT-2024-002,Vehicles,5.2,Equipment,Vehicles,66041.51,66041.51,USD,Prior Approval Required,GRT-2024-002-BL-13,Approved budget line 5.2 for GRT-2024-002
+BDL-0167,GRT-2024-002,Consultancy Fees,1.2,Personnel,Consultancy Fees,132658.59,132658.59,USD,Flexible,GRT-2024-002-BL-14,Approved budget line 1.2 for GRT-2024-002
+BDL-0168,GRT-2024-002,Medical and Health Supplies,4.0,Programme Supplies,Medical and Health Supplies,59737.89,59765.95,USD,Restricted,GRT-2024-002-BL-15,Approved budget line 4.0 for GRT-2024-002
+BDL-0169,GRT-2024-002,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,37036.23,37036.23,USD,Flexible,GRT-2024-002-BL-16,Approved budget line 3.0 for GRT-2024-002
+BDL-0170,GRT-2024-002,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,38814.47,38814.47,USD,Flexible,GRT-2024-002-BL-17,Approved budget line 4.2 for GRT-2024-002
+BDL-0171,GRT-2024-002,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,96247.13,114972.58,USD,Restricted,GRT-2024-002-BL-18,Approved budget line 7.0 for GRT-2024-002
+BDL-0172,GRT-2024-002,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,69376.6,69376.6,USD,Flexible,GRT-2024-002-BL-19,Approved budget line 6.0 for GRT-2024-002
+BDL-0173,GRT-2024-002,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,51874.31,46584.8,USD,Flexible,GRT-2024-002-BL-20,Approved budget line 2.0 for GRT-2024-002
+BDL-0174,GRT-2024-003,National Staff Salaries,1.0,Personnel,National Staff Salaries,122888.49,122888.49,USD,Flexible,GRT-2024-003-BL-01,Approved budget line 1.0 for GRT-2024-003
+BDL-0175,GRT-2024-003,Vehicles,5.2,Equipment,Vehicles,41055.56,41055.56,USD,Prior Approval Required,GRT-2024-003-BL-02,Approved budget line 5.2 for GRT-2024-003
+BDL-0176,GRT-2024-003,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,28715.47,33157.28,USD,Prior Approval Required,GRT-2024-003-BL-03,Approved budget line 5.0 for GRT-2024-003
+BDL-0177,GRT-2024-003,International Travel,2.1,Travel,International Travel,33878.61,33878.61,USD,Prior Approval Required,GRT-2024-003-BL-04,Approved budget line 2.1 for GRT-2024-003
+BDL-0178,GRT-2024-003,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,32774.16,33713.77,USD,Flexible,GRT-2024-003-BL-05,Approved budget line 2.0 for GRT-2024-003
+BDL-0179,GRT-2024-003,Office and Programme Stationery,4.2,Programme Supplies,Office and Programme Stationery,43245.76,48507.9,USD,Flexible,GRT-2024-003-BL-06,Approved budget line 4.2 for GRT-2024-003
+BDL-0180,GRT-2024-003,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,27669.49,25997.95,USD,Flexible,GRT-2024-003-BL-07,Approved budget line 6.1 for GRT-2024-003
+BDL-0181,GRT-2024-003,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,32801.23,32801.23,USD,Flexible,GRT-2024-003-BL-08,Approved budget line 3.0 for GRT-2024-003
+BDL-0182,GRT-2024-003,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,57730.59,57730.59,USD,Flexible,GRT-2024-003-BL-09,Approved budget line 6.0 for GRT-2024-003
+BDL-0183,GRT-2024-003,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,22443.35,25147.7,USD,Restricted,GRT-2024-003-BL-10,Approved budget line 4.1 for GRT-2024-003
+BDL-0184,GRT-2024-003,International Staff Salaries,1.1,Personnel,International Staff Salaries,159009.74,159009.74,USD,Prior Approval Required,GRT-2024-003-BL-11,Approved budget line 1.1 for GRT-2024-003
+BDL-0185,GRT-2024-003,Vehicle Fuel and Running Costs,2.2,Travel,Vehicle Fuel and Running Costs,35247.43,35247.43,USD,Flexible,GRT-2024-003-BL-12,Approved budget line 2.2 for GRT-2024-003
+BDL-0186,GRT-2024-003,Construction Materials,9.1,Construction,Construction Materials,110290.99,110290.99,USD,Prior Approval Required,GRT-2024-003-BL-13,Approved budget line 9.1 for GRT-2024-003
+BDL-0187,GRT-2024-003,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,30883.02,30883.02,USD,Prior Approval Required,GRT-2024-003-BL-14,Approved budget line 10.0 for GRT-2024-003
+BDL-0188,GRT-2024-003,Civil Works and Construction,9.0,Construction,Civil Works and Construction,91566.36,91566.36,USD,Prior Approval Required,GRT-2024-003-BL-15,Approved budget line 9.0 for GRT-2024-003
+BDL-0189,GRT-2024-003,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,60799.76,60799.76,USD,Restricted,GRT-2024-003-BL-16,Approved budget line 7.0 for GRT-2024-003
+BDL-0190,GRT-2021-001,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,12076.28,12076.28,GBP,Restricted,GRT-2021-001-BL-01,Approved budget line 8.0 for GRT-2021-001
+BDL-0191,GRT-2021-001,Medical and Health Supplies,4.0,Programme Supplies,Medical and Health Supplies,35268.48,33036.35,GBP,Restricted,GRT-2021-001-BL-02,Approved budget line 4.0 for GRT-2021-001
+BDL-0192,GRT-2021-001,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,35004.71,35004.71,GBP,Flexible,GRT-2021-001-BL-03,Approved budget line 2.0 for GRT-2021-001
+BDL-0193,GRT-2021-001,Furniture and Fittings,5.1,Equipment,Furniture and Fittings,27928.39,27383.74,GBP,Prior Approval Required,GRT-2021-001-BL-04,Approved budget line 5.1 for GRT-2021-001
+BDL-0194,GRT-2021-001,Consultancy Fees,1.2,Personnel,Consultancy Fees,83787.75,83787.75,GBP,Flexible,GRT-2021-001-BL-05,Approved budget line 1.2 for GRT-2021-001
+BDL-0195,GRT-2021-001,Vehicles,5.2,Equipment,Vehicles,40439.27,40439.27,GBP,Prior Approval Required,GRT-2021-001-BL-06,Approved budget line 5.2 for GRT-2021-001
+BDL-0196,GRT-2021-001,Communication and Internet,8.1,Operating Costs,Communication and Internet,26141.03,27992.08,GBP,Flexible,GRT-2021-001-BL-07,Approved budget line 8.1 for GRT-2021-001
+BDL-0197,GRT-2021-001,Facilitator and Expert Fees,3.2,Training,Facilitator and Expert Fees,33135.37,36032.49,GBP,Flexible,GRT-2021-001-BL-08,Approved budget line 3.2 for GRT-2021-001
+BDL-0198,GRT-2021-001,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,36199.88,36199.88,GBP,Flexible,GRT-2021-001-BL-09,Approved budget line 3.1 for GRT-2021-001
+BDL-0199,GRT-2021-001,International Staff Salaries,1.1,Personnel,International Staff Salaries,80973.63,80973.63,GBP,Prior Approval Required,GRT-2021-001-BL-10,Approved budget line 1.1 for GRT-2021-001
+BDL-0200,GRT-2021-001,International Travel,2.1,Travel,International Travel,33665.41,33665.41,GBP,Prior Approval Required,GRT-2021-001-BL-11,Approved budget line 2.1 for GRT-2021-001
+BDL-0201,GRT-2021-001,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,29012.99,25488.66,GBP,Flexible,GRT-2021-001-BL-12,Approved budget line 6.0 for GRT-2021-001
+BDL-0202,GRT-2021-001,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,63633.85,63633.85,GBP,Restricted,GRT-2021-001-BL-13,Approved budget line 7.0 for GRT-2021-001
+BDL-0203,GRT-2021-001,Civil Works and Construction,9.0,Construction,Civil Works and Construction,62611.51,62611.51,GBP,Prior Approval Required,GRT-2021-001-BL-14,Approved budget line 9.0 for GRT-2021-001
+BDL-0204,GRT-2021-001,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,14259.38,14259.38,GBP,Flexible,GRT-2021-001-BL-15,Approved budget line 3.0 for GRT-2021-001
+BDL-0205,GRT-2021-001,Construction Materials,9.1,Construction,Construction Materials,42303.22,42303.22,GBP,Prior Approval Required,GRT-2021-001-BL-16,Approved budget line 9.1 for GRT-2021-001
+BDL-0206,GRT-2021-001,National Staff Salaries,1.0,Personnel,National Staff Salaries,63979.59,63979.59,GBP,Flexible,GRT-2021-001-BL-17,Approved budget line 1.0 for GRT-2021-001
+BDL-0207,GRT-2021-001,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,36295.59,36295.59,GBP,Prior Approval Required,GRT-2021-001-BL-18,Approved budget line 5.0 for GRT-2021-001
+BDL-0208,GRT-2021-001,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,19930.71,19930.71,GBP,Prior Approval Required,GRT-2021-001-BL-19,Approved budget line 10.0 for GRT-2021-001
+BDL-0209,GRT-2021-001,Vehicle Fuel and Running Costs,2.2,Travel,Vehicle Fuel and Running Costs,30852.95,30852.95,GBP,Flexible,GRT-2021-001-BL-20,Approved budget line 2.2 for GRT-2021-001
+BDL-0210,GRT-2024-004,Domestic Travel and Accommodation,2.0,Travel,Domestic Travel and Accommodation,22955.25,22955.25,EUR,Flexible,GRT-2024-004-BL-01,Approved budget line 2.0 for GRT-2024-004
+BDL-0211,GRT-2024-004,Communication and Internet,8.1,Operating Costs,Communication and Internet,65860.96,65860.96,EUR,Flexible,GRT-2024-004-BL-02,Approved budget line 8.1 for GRT-2024-004
+BDL-0212,GRT-2024-004,Civil Works and Construction,9.0,Construction,Civil Works and Construction,83986.99,83986.99,EUR,Prior Approval Required,GRT-2024-004-BL-03,Approved budget line 9.0 for GRT-2024-004
+BDL-0213,GRT-2024-004,Construction Materials,9.1,Construction,Construction Materials,146406.69,146406.69,EUR,Prior Approval Required,GRT-2024-004-BL-04,Approved budget line 9.1 for GRT-2024-004
+BDL-0214,GRT-2024-004,Community Mobilisation Activities,6.0,Programme Activities,Community Mobilisation Activities,65340.42,65340.42,EUR,Flexible,GRT-2024-004-BL-05,Approved budget line 6.0 for GRT-2024-004
+BDL-0215,GRT-2024-004,Consultancy Fees,1.2,Personnel,Consultancy Fees,194200.73,194200.73,EUR,Flexible,GRT-2024-004-BL-06,Approved budget line 1.2 for GRT-2024-004
+BDL-0216,GRT-2024-004,ICT Equipment and Software,5.0,Equipment,ICT Equipment and Software,20751.01,20751.01,EUR,Prior Approval Required,GRT-2024-004-BL-07,Approved budget line 5.0 for GRT-2024-004
+BDL-0217,GRT-2024-004,Office Rent and Utilities,8.0,Operating Costs,Office Rent and Utilities,37472.16,37472.16,EUR,Restricted,GRT-2024-004-BL-08,Approved budget line 8.0 for GRT-2024-004
+BDL-0218,GRT-2024-004,Agricultural Inputs and Seeds,4.1,Programme Supplies,Agricultural Inputs and Seeds,61492.41,61492.41,EUR,Restricted,GRT-2024-004-BL-09,Approved budget line 4.1 for GRT-2024-004
+BDL-0219,GRT-2024-004,National Staff Salaries,1.0,Personnel,National Staff Salaries,124054.76,124054.76,EUR,Flexible,GRT-2024-004-BL-10,Approved budget line 1.0 for GRT-2024-004
+BDL-0220,GRT-2024-004,International Travel,2.1,Travel,International Travel,39706.49,39706.49,EUR,Prior Approval Required,GRT-2024-004-BL-11,Approved budget line 2.1 for GRT-2024-004
+BDL-0221,GRT-2024-004,Sub-grants to Partners,10.0,Sub-grants,Sub-grants to Partners,27713.09,27713.09,EUR,Prior Approval Required,GRT-2024-004-BL-12,Approved budget line 10.0 for GRT-2024-004
+BDL-0222,GRT-2024-004,Organisational Overhead Recovery,7.0,Indirect Costs,Organisational Overhead Recovery,63039.89,63039.89,EUR,Restricted,GRT-2024-004-BL-13,Approved budget line 7.0 for GRT-2024-004
+BDL-0223,GRT-2024-004,Staff Benefits and Social Security,1.3,Personnel,Staff Benefits and Social Security,183707.78,183707.78,EUR,Restricted,GRT-2024-004-BL-14,Approved budget line 1.3 for GRT-2024-004
+BDL-0224,GRT-2024-004,Furniture and Fittings,5.1,Equipment,Furniture and Fittings,63882.23,63882.23,EUR,Prior Approval Required,GRT-2024-004-BL-15,Approved budget line 5.1 for GRT-2024-004
+BDL-0225,GRT-2024-004,Training Venue and Accommodation,3.0,Training,Training Venue and Accommodation,27897.17,27897.17,EUR,Flexible,GRT-2024-004-BL-16,Approved budget line 3.0 for GRT-2024-004
+BDL-0226,GRT-2024-004,Monitoring and Evaluation,6.1,Programme Activities,Monitoring and Evaluation,43115.04,43115.04,EUR,Flexible,GRT-2024-004-BL-17,Approved budget line 6.1 for GRT-2024-004
+BDL-0227,GRT-2024-004,Training Materials and Supplies,3.1,Training,Training Materials and Supplies,41615.55,41615.55,EUR,Flexible,GRT-2024-004-BL-18,Approved budget line 3.1 for GRT-2024-004
+BDL-0228,GRT-2024-004,International Staff Salaries,1.1,Personnel,International Staff Salaries,174878.42,174878.42,EUR,Prior Approval Required,GRT-2024-004-BL-19,Approved budget line 1.1 for GRT-2024-004
+BDL-0229,GRT-2024-004,Vehicle Fuel and Running Costs,2.2,Travel,Vehicle Fuel and Running Costs,31922.94,29927.79,EUR,Flexible,GRT-2024-004-BL-20,Approved budget line 2.2 for GRT-2024-004

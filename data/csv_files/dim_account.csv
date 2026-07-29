@@ -1,0 +1,22 @@
+account_id,account_code,account_name,account_type,account_sub_type,parent_account_id,is_direct_cost,donor_mapping,is_active
+ACC-5001,5001,Staff Salaries - National,Expenditure,Personnel,ACC-5000,True,Personnel Costs,True
+ACC-5002,5002,Staff Salaries - International,Expenditure,Personnel,ACC-5000,True,Personnel Costs,True
+ACC-5003,5003,Consultancy Fees,Expenditure,Personnel,ACC-5000,True,Consultancy,True
+ACC-5004,5004,Staff Benefits and Insurance,Expenditure,Personnel,ACC-5000,True,Personnel Costs,True
+ACC-5101,5101,Staff Travel - Domestic,Expenditure,Travel,ACC-5100,True,Travel and Transport,True
+ACC-5102,5102,Staff Travel - International,Expenditure,Travel,ACC-5100,True,Travel and Transport,True
+ACC-5103,5103,Vehicle Fuel and Maintenance,Expenditure,Travel,ACC-5100,True,Travel and Transport,True
+ACC-5201,5201,Training - Venue and Accommodation,Expenditure,Training,ACC-5200,True,Training and Capacity Building,True
+ACC-5202,5202,Training - Materials and Supplies,Expenditure,Training,ACC-5200,True,Training and Capacity Building,True
+ACC-5203,5203,Training - Facilitator Fees,Expenditure,Training,ACC-5200,True,Training and Capacity Building,True
+ACC-5301,5301,Medical Supplies,Expenditure,Programme Supplies,ACC-5300,True,Supplies and Materials,True
+ACC-5302,5302,Agricultural Inputs,Expenditure,Programme Supplies,ACC-5300,True,Supplies and Materials,True
+ACC-5303,5303,ICT Equipment,Expenditure,Equipment,ACC-5300,True,Equipment,True
+ACC-5304,5304,Office Furniture and Fittings,Expenditure,Equipment,ACC-5300,True,Equipment,True
+ACC-5305,5305,Office Supplies and Stationery,Expenditure,Operating Costs,ACC-5300,True,Supplies and Materials,True
+ACC-5401,5401,Office Rent,Expenditure,Operating Costs,ACC-5400,False,Indirect Costs,True
+ACC-5402,5402,Utilities - Electricity and Water,Expenditure,Operating Costs,ACC-5400,False,Indirect Costs,True
+ACC-5403,5403,Communication - Phone and Internet,Expenditure,Operating Costs,ACC-5400,True,Communication,True
+ACC-5404,5404,Monitoring and Evaluation,Expenditure,Programme Costs,ACC-5400,True,Monitoring and Evaluation,True
+ACC-5405,5405,Community Outreach and Mobilisation,Expenditure,Programme Costs,ACC-5400,True,Programme Activities,True
+ACC-5501,5501,Indirect Cost Recovery,Expenditure,Indirect Costs,ACC-5500,False,Indirect Costs,True

@@ -1,0 +1,121 @@
+staff_id,first_name,last_name,full_name,staff_type,job_title,grade,department,cost_centre_id,monthly_salary,salary_currency,contract_type,contract_start,contract_end,location_id,is_active,national_id
+STF-001,Emmanuel,Mwangi,Emmanuel Mwangi,National Staff,Executive Director,M2,Senior Management,CC-OVH-MGT,5800000,TZS,Permanent,2017-01-01,,LOC-KIL-001,True,1981018-5012-38-28289
+STF-002,Grace,Kimaro,Grace Kimaro,National Staff,Finance Manager,G5,Finance,CC-SUP-FIN,3200000,TZS,Permanent,2017-06-01,,LOC-KIL-001,True,1981812-7912-14-13905
+STF-003,James,Mollel,James Mollel,National Staff,Operations Manager,G4,Operations,CC-SUP-FIN,2400000,TZS,Permanent,2018-03-01,,LOC-KIL-001,True,1981317-9279-87-13478
+STF-004,Mary,Mrema,Mary Mrema,National Staff,Procurement Manager,G4,Procurement,CC-SUP-FIN,2400000,TZS,Permanent,2018-06-01,,LOC-KIL-001,True,1988327-7873-38-68878
+STF-005,Peter,Swai,Peter Swai,National Staff,Programme Manager,G5,Programmes,CC-PRG-HLT,3200000,TZS,Permanent,2018-01-01,,LOC-KIL-001,True,1989410-3615-99-65392
+STF-006,Rehema,Lyimo,Rehema Lyimo,National Staff,M&E Manager,G4,Monitoring and Evaluation,CC-PRG-HLT,2400000,TZS,Permanent,2018-09-01,,LOC-KIL-001,True,1985414-4527-53-23396
+STF-007,Samuel,Massawe,Samuel Massawe,National Staff,Deputy Director - Programmes,M1,Senior Management,CC-OVH-MGT,4500000,TZS,Permanent,2019-01-01,,LOC-KIL-001,True,1981613-6881-54-89131
+STF-008,Josephine,Mchome,Josephine Mchome,National Staff,Programme Manager,G5,Programmes,CC-PRG-EDU,3200000,TZS,Permanent,2019-03-01,,LOC-ARU-001,True,1984024-9785-25-59615
+STF-009,David,Tarimo,David Tarimo,National Staff,Senior Finance Officer,G4,Finance,CC-SUP-FIN,2400000,TZS,Permanent,2019-06-01,,LOC-KIL-001,True,1981819-6925-83-35203
+STF-010,Fatuma,Urio,Fatuma Urio,National Staff,HR Manager,G4,Human Resources,CC-SUP-FIN,2400000,TZS,Permanent,2019-09-01,,LOC-KIL-001,True,1981017-5741-20-40512
+STF-011,John,Venance,John Venance,National Staff,Senior Programme Officer,G4,Programmes,CC-PRG-EDU,2400000,TZS,Permanent,2020-01-01,,LOC-ARU-001,True,1981618-8428-91-57819
+STF-012,Zainab,Shayo,Zainab Shayo,National Staff,Programme Manager,G5,Programmes,CC-PRG-WEE,3200000,TZS,Permanent,2019-06-01,,LOC-KIL-001,True,1982521-4432-95-44993
+STF-013,Robert,Tesha,Robert Tesha,National Staff,Finance Officer,G3,Finance,CC-SUP-FIN,1850000,TZS,Permanent,2020-03-01,,LOC-KIL-001,True,1981915-9751-41-31417
+STF-014,Joyce,Nkya,Joyce Nkya,National Staff,M&E Officer,G3,Monitoring and Evaluation,CC-PRG-EDU,1850000,TZS,Permanent,2020-06-01,,LOC-ARU-001,True,1987618-4598-97-52504
+STF-015,Charles,Minja,Charles Minja,National Staff,Programme Manager,G5,Programmes,CC-PRG-CLR,3200000,TZS,Permanent,2020-01-01,,LOC-MAN-001,True,1980311-6168-61-45093
+STF-016,Neema,Msemwa,Neema Msemwa,National Staff,Communications Manager,G4,Communications,CC-OVH-MGT,2400000,TZS,Permanent,2020-03-01,,LOC-KIL-001,True,1981328-6155-37-95909
+STF-017,Thomas,Mfinanga,Thomas Mfinanga,National Staff,Procurement Officer,G3,Procurement,CC-SUP-FIN,1850000,TZS,Permanent,2020-06-01,,LOC-KIL-001,True,1987624-3340-43-28301
+STF-018,Agness,Msigwa,Agness Msigwa,National Staff,Programme Manager,G5,Programmes,CC-PRG-AGR,3200000,TZS,Permanent,2019-09-01,,LOC-MAN-001,True,1983827-5304-84-66155
+STF-019,Richard,Mwamba,Richard Mwamba,National Staff,Logistics Officer,G3,Operations,CC-SUP-FIN,1850000,TZS,Fixed Term,2021-01-01,2025-12-31,LOC-KIL-001,True,1989621-4593-27-76784
+STF-020,Sarah,Ndossi,Sarah Ndossi,National Staff,Accountant,G3,Finance,CC-SUP-FIN,1850000,TZS,Permanent,2021-03-01,,LOC-ARU-001,True,1987111-2796-29-92240
+STF-021,George,Ngowi,George Ngowi,National Staff,Programme Manager,G5,Programmes,CC-PRG-CHP,3200000,TZS,Permanent,2020-06-01,,LOC-ARU-001,True,1982612-7304-58-88104
+STF-022,Helena,Lengai,Helena Lengai,National Staff,Deputy Director - Finance and Operations,M2,Senior Management,CC-OVH-MGT,5937881,TZS,Fixed Term,2020-10-25,2025-09-23,LOC-ARU-001,True,19701224-5315-74-33416
+STF-023,Editha,Ndossi,Editha Ndossi,National Staff,Programme Officer,G4,Programmes,CC-PRG-EDU,2556170,TZS,Fixed Term,2023-01-19,2026-11-26,LOC-KIL-001,True,19700212-6038-40-17592
+STF-024,Samuel,Msoka,Samuel Msoka,National Staff,Logistics Officer,G2,Operations,CC-SUP-FIN,1576653,TZS,Permanent,2022-05-01,,LOC-MAN-001,True,19971014-4470-79-36365
+STF-025,Zawadi,Maro,Zawadi Maro,National Staff,Senior Programme Officer,G2,Programmes,CC-PRG-HLT,1420646,TZS,Permanent,2020-10-16,,LOC-KIL-001,True,19880401-2163-90-17716
+STF-026,Rehema,Mfinanga,Rehema Mfinanga,National Staff,Procurement Assistant,G3,Procurement,CC-SUP-FIN,2049391,TZS,Permanent,2023-01-18,,LOC-KIL-002,True,19880808-8749-62-34957
+STF-027,Yohana,Nkya,Yohana Nkya,National Staff,Operations Manager,G2,Operations,CC-SUP-FIN,1399724,TZS,Permanent,2020-10-21,,LOC-KIL-001,True,19870805-7912-33-46509
+STF-028,Leonard,Mworomola,Leonard Mworomola,National Staff,Procurement Assistant,G3,Procurement,CC-SUP-FIN,2004615,TZS,Consultancy,2017-03-02,2025-09-04,LOC-KIL-002,True,19850428-7570-17-31579
+STF-029,Bertha,Urio,Bertha Urio,National Staff,Deputy Director - Programmes,M1,Senior Management,CC-OVH-MGT,4684266,TZS,Permanent,2019-06-11,,LOC-KIL-001,True,19711211-1936-16-86569
+STF-030,David,Mfinanga,David Mfinanga,National Staff,Procurement Manager,G3,Procurement,CC-SUP-FIN,2048673,TZS,Permanent,2019-08-22,,LOC-ARU-002,True,19771020-1651-89-20745
+STF-031,Mama,Massawe,Mama Massawe,National Staff,Logistics Officer,G1,Operations,CC-SUP-FIN,1239717,TZS,Permanent,2018-06-21,,LOC-MAN-002,True,19800201-8508-89-83792
+STF-032,Philip,Tarimo,Philip Tarimo,National Staff,Programme Manager,G4,Programmes,CC-PRG-WEE,2584802,TZS,Fixed Term,2021-02-22,2026-03-19,LOC-KIL-002,True,19920520-9666-11-97538
+STF-033,Michael,Tarimo,Michael Tarimo,National Staff,Community Mobiliser,G5,Programmes,CC-PRG-HLT,3279768,TZS,Permanent,2020-02-29,,LOC-MAN-001,True,19761121-5325-74-74032
+STF-034,Samuel,Ngowi,Samuel Ngowi,Consultant,Procurement Manager,G2,Procurement,CC-SUP-FIN,1384715,TZS,Permanent,2018-06-20,,LOC-MAN-002,True,19930818-8007-81-11267
+STF-035,Stephen,Kimaro,Stephen Kimaro,International Staff,Director of Grants,M1,Senior Management,CC-OVH-MGT,4420916,TZS,Permanent,2020-06-16,,LOC-ARU-001,True,19980607-5088-95-23473
+STF-036,Lusungu,Msoka,Lusungu Msoka,National Staff,Logistics Officer,G3,Operations,CC-SUP-FIN,1924160,TZS,Consultancy,2018-12-27,2026-07-28,LOC-KIL-001,True,19950726-5065-44-30866
+STF-037,Nathan,Mchome,Nathan Mchome,National Staff,Programme Officer,G4,Programmes,CC-PRG-CLR,2401255,TZS,Permanent,2019-07-22,,LOC-KIL-002,True,19820609-2137-45-56025
+STF-038,Fatuma,Mrema,Fatuma Mrema,National Staff,Community Mobiliser,G3,Programmes,CC-PRG-EDU,1931239,TZS,Consultancy,2019-12-24,2025-07-10,LOC-KIL-001,True,19930614-9379-24-60488
+STF-039,Kevin,Mwangi,Kevin Mwangi,National Staff,Field Officer,G4,Programmes,CC-PRG-WEE,2365339,TZS,Permanent,2020-09-14,,LOC-MAN-001,True,19930517-6067-95-63528
+STF-040,Richard,Nkya,Richard Nkya,National Staff,Data Entry Officer,G3,Monitoring and Evaluation,CC-PRG-HLT,1909317,TZS,Permanent,2021-07-22,,LOC-MAN-001,True,19790414-6279-69-67905
+STF-041,Devota,Nkini,Devota Nkini,National Staff,Community Mobiliser,G5,Programmes,CC-PRG-WEE,3223138,TZS,Fixed Term,2023-12-12,2026-05-10,LOC-KIL-001,True,19910508-4262-28-13201
+STF-042,Moses,Nkya,Moses Nkya,National Staff,Director of Grants,M2,Senior Management,CC-OVH-MGT,5755882,TZS,Permanent,2018-08-28,,LOC-MAN-002,True,19940708-3881-99-77889
+STF-043,Moses,Swai,Moses Swai,National Staff,Office Assistant,G2,Operations,CC-SUP-FIN,1383444,TZS,Fixed Term,2022-08-30,2026-08-11,LOC-MAN-001,True,19930815-5246-41-93579
+STF-044,Leah,Tarimo,Leah Tarimo,International Staff,HR Officer,G2,Human Resources,CC-SUP-FIN,1342245,TZS,Permanent,2020-10-07,,LOC-ARU-001,True,19740308-7275-98-30028
+STF-045,Fatuma,Urio,Fatuma Urio,Consultant,Programme Manager,G2,Programmes,CC-PRG-CLR,1310240,TZS,Permanent,2021-09-17,,LOC-ARU-002,True,19971013-8814-10-56105
+STF-046,Gertrude,Msoka,Gertrude Msoka,National Staff,Senior Programme Officer,G4,Programmes,CC-PRG-CLR,2511978,TZS,Permanent,2022-06-13,,LOC-KIL-001,True,19930327-8657-26-91560
+STF-047,Samuel,Ngowi,Samuel Ngowi,National Staff,Procurement Officer,G2,Procurement,CC-SUP-FIN,1538393,TZS,Permanent,2019-12-02,,LOC-ARU-002,True,19800625-7211-45-65255
+STF-048,Stephen,Kimaro,Stephen Kimaro,Consultant,Programme Manager,G3,Programmes,CC-PRG-EDU,1854522,TZS,Fixed Term,2024-04-23,2025-07-12,LOC-KIL-001,True,19960120-3496-40-26544
+STF-049,Moses,Nnko,Moses Nnko,National Staff,Senior Programme Officer,G3,Programmes,CC-PRG-WEE,1763462,TZS,Fixed Term,2018-04-15,2025-11-15,LOC-ARU-001,True,19990519-7149-60-35995
+STF-050,Joseph,Nnko,Joseph Nnko,National Staff,Data Entry Officer,G3,Monitoring and Evaluation,CC-PRG-HLT,1786153,TZS,Fixed Term,2020-11-23,2026-11-28,LOC-ARU-002,True,19861111-1207-63-74251
+STF-051,Agness,Nkya,Agness Nkya,National Staff,Director of Grants,M2,Senior Management,CC-OVH-MGT,5828710,TZS,Permanent,2023-08-24,,LOC-ARU-001,True,19960209-8385-41-70910
+STF-052,Fatuma,Msemwa,Fatuma Msemwa,National Staff,Office Assistant,G2,Operations,CC-SUP-FIN,1444844,TZS,Permanent,2019-11-25,,LOC-ARU-001,True,19870117-4130-20-41635
+STF-053,Nathan,Ngowi,Nathan Ngowi,National Staff,Accountant,G2,Finance,CC-SUP-FIN,1427561,TZS,Fixed Term,2018-01-17,2026-03-29,LOC-KIL-002,True,19791119-7046-70-82544
+STF-054,Tupendo,Nnko,Tupendo Nnko,National Staff,Finance Officer,G3,Finance,CC-SUP-FIN,1812681,TZS,Permanent,2018-05-10,,LOC-MAN-002,True,19930925-4033-34-38361
+STF-055,Mary,Kimario,Mary Kimario,National Staff,Senior Programme Officer,G4,Programmes,CC-PRG-WEE,2366365,TZS,Permanent,2020-05-23,,LOC-KIL-001,True,19780102-5786-99-26551
+STF-056,Emmanuel,Mwamba,Emmanuel Mwamba,National Staff,HR Officer,G2,Human Resources,CC-SUP-FIN,1550467,TZS,Permanent,2019-01-26,,LOC-KIL-001,True,19730213-9056-19-85631
+STF-057,Victor,Urio,Victor Urio,National Staff,Programme Manager,G5,Programmes,CC-PRG-EDU,3218325,TZS,Permanent,2021-09-01,,LOC-MAN-001,True,19940913-8381-66-48974
+STF-058,Isabella,Ndossi,Isabella Ndossi,National Staff,Deputy Director - Programmes,M2,Senior Management,CC-OVH-MGT,5989402,TZS,Fixed Term,2019-12-20,2025-08-23,LOC-KIL-002,True,19720301-7693-67-87832
+STF-059,Olivia,Nnko,Olivia Nnko,National Staff,Senior Programme Officer,G2,Programmes,CC-PRG-HLT,1417864,TZS,Consultancy,2024-01-05,2025-12-20,LOC-ARU-002,True,19900309-3330-19-17816
+STF-060,Zawadi,Mrema,Zawadi Mrema,National Staff,Programme Officer,G2,Programmes,CC-PRG-CHP,1342174,TZS,Fixed Term,2020-01-21,2026-10-26,LOC-MAN-001,True,19890114-6280-87-42816
+STF-061,Patrick,Mwamba,Patrick Mwamba,National Staff,Field Officer,G5,Programmes,CC-PRG-EDU,3328529,TZS,Permanent,2021-12-17,,LOC-ARU-001,True,19900803-8700-54-63523
+STF-062,Edward,Nkya,Edward Nkya,National Staff,Data Entry Officer,G3,Monitoring and Evaluation,CC-PRG-EDU,1882329,TZS,Consultancy,2023-03-04,2025-07-08,LOC-ARU-002,True,19800225-7622-75-10150
+STF-063,Joyce,Massawe,Joyce Massawe,National Staff,Finance Assistant,G2,Finance,CC-SUP-FIN,1587949,TZS,Fixed Term,2024-01-06,2026-08-27,LOC-KIL-001,True,19740515-8941-25-13783
+STF-064,Charles,Urio,Charles Urio,Consultant,Office Assistant,G1,Operations,CC-SUP-FIN,1080725,TZS,Permanent,2018-04-10,,LOC-ARU-002,True,19851210-9337-44-64459
+STF-065,Moses,Msigwa,Moses Msigwa,National Staff,Deputy Director - Programmes,M2,Senior Management,CC-OVH-MGT,5917549,TZS,Consultancy,2022-09-13,2025-10-18,LOC-KIL-001,True,19800909-1042-46-49132
+STF-066,Agness,Minja,Agness Minja,National Staff,Driver,G1,Operations,CC-SUP-FIN,1168704,TZS,Permanent,2023-02-04,,LOC-ARU-002,True,19970423-4912-83-60196
+STF-067,James,Mollel,James Mollel,Consultant,HR Officer,G2,Human Resources,CC-SUP-FIN,1563345,TZS,Consultancy,2024-04-24,2025-11-03,LOC-ARU-002,True,19880628-2644-66-23069
+STF-068,Joel,Lengai,Joel Lengai,National Staff,Finance Manager,G2,Finance,CC-SUP-FIN,1508395,TZS,Permanent,2019-12-22,,LOC-ARU-001,True,19900228-6383-96-79942
+STF-069,Gertrude,Kimaro,Gertrude Kimaro,National Staff,Programme Officer,G5,Programmes,CC-PRG-EDU,3152694,TZS,Consultancy,2018-01-06,2026-08-19,LOC-KIL-001,True,19840323-5906-13-16028
+STF-070,Upendo,Nkya,Upendo Nkya,National Staff,Community Mobiliser,G4,Programmes,CC-PRG-EDU,2500563,TZS,Permanent,2019-01-08,,LOC-KIL-002,True,19891108-9153-84-28758
+STF-071,Mama,Nkini,Mama Nkini,Consultant,Driver,G3,Operations,CC-SUP-FIN,1906842,TZS,Fixed Term,2018-10-10,2025-08-15,LOC-ARU-002,True,19900723-5097-68-49599
+STF-072,Mary,Mchome,Mary Mchome,Consultant,Programme Officer,G2,Programmes,CC-PRG-AGR,1507516,TZS,Permanent,2020-04-24,,LOC-KIL-001,True,19780119-1803-87-75107
+STF-073,Xavier,Mworomola,Xavier Mworomola,National Staff,Procurement Assistant,G2,Procurement,CC-SUP-FIN,1371711,TZS,Permanent,2019-10-24,,LOC-MAN-002,True,19900221-1645-49-67779
+STF-074,Samuel,Mhina,Samuel Mhina,International Staff,Field Officer,G3,Programmes,CC-PRG-WEE,1941814,TZS,Permanent,2018-06-26,,LOC-MAN-001,True,19860909-3695-42-73156
+STF-075,Neema,Minja,Neema Minja,National Staff,Senior Programme Officer,G5,Programmes,CC-PRG-EDU,3306870,TZS,Fixed Term,2021-06-16,2026-12-23,LOC-ARU-001,True,19700518-3024-68-58311
+STF-076,Upendo,Mrema,Upendo Mrema,National Staff,M&E Manager,G4,Monitoring and Evaluation,CC-PRG-EDU,2333143,TZS,Fixed Term,2023-04-19,2026-05-02,LOC-MAN-001,True,19900823-5951-93-63516
+STF-077,Clement,Msemwa,Clement Msemwa,National Staff,Senior Programme Officer,G5,Programmes,CC-PRG-HLT,3383216,TZS,Fixed Term,2018-07-10,2026-07-03,LOC-ARU-002,True,19831024-3531-63-95841
+STF-078,Nuru,Kimaro,Nuru Kimaro,National Staff,Senior Finance Officer,G2,Finance,CC-SUP-FIN,1492589,TZS,Permanent,2019-08-26,,LOC-ARU-001,True,19871112-1992-60-46160
+STF-079,Zainab,Nkini,Zainab Nkini,Consultant,Community Mobiliser,G4,Programmes,CC-PRG-CHP,2596001,TZS,Consultancy,2017-07-27,2026-05-08,LOC-KIL-002,True,19760227-4394-85-38305
+STF-080,Xavier,Mwangi,Xavier Mwangi,National Staff,Senior Programme Officer,G3,Programmes,CC-PRG-EDU,1763516,TZS,Permanent,2018-12-16,,LOC-KIL-001,True,
+STF-081,Joel,Mfinanga,Joel Mfinanga,National Staff,Programme Manager,G5,Programmes,CC-PRG-CHP,3336981,TZS,Permanent,2021-01-22,,LOC-MAN-001,True,19860420-1710-94-78347
+STF-082,David,Msemwa,David Msemwa,International Staff,Operations Manager,G2,Operations,CC-SUP-FIN,1468879,TZS,Permanent,2021-12-22,,LOC-KIL-001,True,19890303-3067-45-91830
+STF-083,Veronica,Ndossi,Veronica Ndossi,National Staff,Accountant,G2,Finance,CC-SUP-FIN,1359985,TZS,Permanent,2021-10-29,,LOC-KIL-001,True,19971121-4522-65-69186
+STF-084,Winnie,Nkya,Winnie Nkya,Consultant,Finance Officer,G2,Finance,CC-SUP-FIN,1548652,TZS,Permanent,2019-11-11,,LOC-ARU-001,True,19720227-2398-21-66606
+STF-085,Timothy,Kimaro,Timothy Kimaro,National Staff,M&E Officer,G3,Monitoring and Evaluation,CC-PRG-HLT,1900800,TZS,Permanent,2021-09-29,,LOC-MAN-002,True,19890512-2697-83-76507
+STF-086,Joseph,Shayo,Joseph Shayo,National Staff,Operations Manager,G1,Operations,CC-SUP-FIN,1291891,TZS,Fixed Term,2023-06-10,2026-01-18,LOC-ARU-002,True,19701022-5381-13-33647
+STF-087,Tupendo,Mwangi,Tupendo Mwangi,National Staff,HR Officer,G3,Human Resources,CC-SUP-FIN,2028125,TZS,Permanent,2024-02-07,,LOC-KIL-001,True,19760714-8432-53-30631
+STF-088,David,Swai,David Swai,National Staff,Data Entry Officer,G4,Monitoring and Evaluation,CC-PRG-HLT,2531758,TZS,Permanent,2021-12-20,,LOC-MAN-002,True,19830507-9394-24-55242
+STF-089,Peter,Swai,Peter Swai,National Staff,Senior Programme Officer,G3,Programmes,CC-PRG-HLT,1860747,TZS,Permanent,2023-09-21,,LOC-KIL-001,True,19940325-5186-47-53007
+STF-090,Esther,Swai,Esther Swai,National Staff,Finance Assistant,G3,Finance,CC-SUP-FIN,1772178,TZS,Permanent,2020-12-21,,LOC-KIL-001,True,19830115-2275-50-85465
+STF-091,Olivia,Mrema,Olivia Mrema,National Staff,Finance Officer,G3,Finance,CC-SUP-FIN,1939715,TZS,Permanent,2023-12-07,,LOC-ARU-002,True,19720728-2734-41-67104
+STF-092,Pendo,Msoka,Pendo Msoka,National Staff,Finance Officer,G3,Finance,CC-SUP-FIN,2017361,TZS,Fixed Term,2017-11-09,2026-11-05,LOC-MAN-002,True,19760612-3419-40-23474
+STF-093,Peter,Lyimo,Peter Lyimo,National Staff,Community Mobiliser,G2,Programmes,CC-PRG-CLR,1469454,TZS,Fixed Term,2022-01-13,2026-12-31,LOC-MAN-002,True,19971111-3473-66-18950
+STF-094,Josephine,Kimaro,Josephine Kimaro,National Staff,Driver,G2,Operations,CC-SUP-FIN,1450511,TZS,Permanent,2017-06-04,,LOC-KIL-001,True,19721128-2479-88-87867
+STF-095,Leonard,Mhina,Leonard Mhina,National Staff,Finance Officer,G2,Finance,CC-SUP-FIN,1480060,TZS,Fixed Term,2022-08-16,2025-11-02,LOC-KIL-001,True,19920217-3827-15-42472
+STF-096,Gabriel,Shayo,Gabriel Shayo,National Staff,Director of Grants,M1,Senior Management,CC-OVH-MGT,4434556,TZS,Fixed Term,2023-09-15,2025-07-24,LOC-MAN-002,True,19800218-7333-46-43029
+STF-097,Edward,Mollel,Edward Mollel,National Staff,Driver,G1,Operations,CC-SUP-FIN,1067607,TZS,Permanent,2024-05-11,,LOC-MAN-002,True,19891203-6072-81-59372
+STF-098,Raphael,Mollel,Raphael Mollel,Consultant,Programme Officer,G2,Programmes,CC-PRG-AGR,1479166,TZS,Permanent,2020-06-19,,LOC-KIL-002,True,19940807-4711-27-30308
+STF-099,Philip,Mwenda,Philip Mwenda,National Staff,Communications Manager,G3,Communications,CC-OVH-MGT,1836790,TZS,Permanent,2018-09-24,,LOC-KIL-002,True,19930802-7731-56-98652
+STF-100,Zawadi,Mchome,Zawadi Mchome,Consultant,Director of Grants,M2,Senior Management,CC-OVH-MGT,5930999,TZS,Consultancy,2019-03-06,2026-06-12,LOC-MAN-002,True,19840525-7256-74-79135
+STF-101,Xavier,Swai,Xavier Swai,National Staff,Field Officer,G3,Programmes,CC-PRG-HLT,1815367,TZS,Fixed Term,2023-03-22,2025-09-14,LOC-MAN-002,True,19790225-3626-44-68893
+STF-102,Zainab,Mhina,Zainab Mhina,National Staff,Programme Officer,G4,Programmes,CC-PRG-CLR,2423615,TZS,Consultancy,2021-08-27,2025-07-25,LOC-ARU-002,True,19820212-4678-13-51770
+STF-103,Agness,Swai,Agness Swai,National Staff,Communications Officer,G3,Communications,CC-OVH-MGT,1791537,TZS,Fixed Term,2018-07-23,2026-09-24,LOC-ARU-002,True,19700507-3449-80-89807
+STF-104,Leah,Urio,Leah Urio,National Staff,Senior Programme Officer,G5,Programmes,CC-PRG-HLT,3362054,TZS,Permanent,2023-12-27,,LOC-ARU-002,True,19890901-9443-83-41711
+STF-105,Yusuph,Shayo,Yusuph Shayo,Consultant,Field Officer,G4,Programmes,CC-PRG-AGR,2335483,TZS,Permanent,2017-12-17,,LOC-MAN-001,True,19860917-9316-80-12665
+STF-106,Upendo,Tarimo,Upendo Tarimo,National Staff,Finance Officer,G2,Finance,CC-SUP-FIN,1354349,TZS,Fixed Term,2020-11-13,2026-02-02,LOC-MAN-002,True,19941024-6447-27-15811
+STF-107,Moses,Nnko,Moses Nnko,National Staff,Senior Programme Officer,G2,Programmes,CC-PRG-CHP,1322967,TZS,Fixed Term,2017-09-16,2026-09-12,LOC-KIL-001,True,19950402-6170-49-77552
+STF-108,Mama,Kimaro,Mama Kimaro,National Staff,Communications Officer,G3,Communications,CC-OVH-MGT,1942948,TZS,Fixed Term,2017-07-15,2026-05-06,LOC-ARU-001,True,19830724-8204-59-54438
+STF-109,Upendo,Mhina,Upendo Mhina,Consultant,Finance Manager,G2,Finance,CC-SUP-FIN,1394611,TZS,Fixed Term,2017-11-20,2026-08-15,LOC-MAN-001,True,19870511-2680-20-52981
+STF-110,Devota,Nnko,Devota Nnko,Consultant,Field Officer,G2,Programmes,CC-PRG-WEE,1443946,TZS,Permanent,2020-12-15,,LOC-MAN-001,True,19900103-7655-56-77251
+STF-111,Robert,Lengai,Robert Lengai,National Staff,M&E Manager,G3,Monitoring and Evaluation,CC-PRG-HLT,2047399,TZS,Permanent,2024-03-27,,LOC-ARU-001,True,19711005-8371-57-58760
+STF-112,Raphael,Shayo,Raphael Shayo,National Staff,Programme Officer,G2,Programmes,CC-PRG-WEE,1561642,TZS,Permanent,2018-04-10,,LOC-KIL-001,True,19860718-2929-43-44116
+STF-113,Dorothea,Massawe,Dorothea Massawe,National Staff,Programme Manager,G5,Programmes,CC-PRG-EDU,3267556,TZS,Permanent,2021-12-29,,LOC-KIL-001,True,19910623-2063-80-81063
+STF-114,Thomas,Mworomola,Thomas Mworomola,National Staff,Senior Programme Officer,G3,Programmes,CC-PRG-AGR,2009009,TZS,Permanent,2019-04-04,,LOC-KIL-002,True,19700618-7044-69-82305
+STF-115,Clement,Tesha,Clement Tesha,National Staff,Procurement Officer,G2,Procurement,CC-SUP-FIN,1535916,TZS,Fixed Term,2017-10-30,2025-10-07,LOC-ARU-001,True,19841117-6644-26-82260
+STF-116,Kevin,Mfinanga,Kevin Mfinanga,National Staff,Community Mobiliser,G5,Programmes,CC-PRG-HLT,3218211,TZS,Permanent,2018-11-06,,LOC-KIL-002,True,19810910-2292-42-35729
+STF-117,Clement,Ndossi,Clement Ndossi,National Staff,Logistics Officer,G1,Operations,CC-SUP-FIN,1177009,TZS,Permanent,2023-07-07,,LOC-KIL-002,True,19961002-1464-20-15958
+STF-118,Irene,Mwenda,Irene Mwenda,Consultant,HR Officer,G2,Human Resources,CC-SUP-FIN,1553202,TZS,Fixed Term,2023-02-13,2026-03-24,LOC-MAN-002,True,19771113-5873-68-19564
+STF-119,Consolata,Minja,Consolata Minja,Consultant,Community Mobiliser,G4,Programmes,CC-PRG-WEE,2481073,TZS,Permanent,2020-07-31,,LOC-MAN-002,True,19820325-7070-75-83616
+STF-120,Patrick,Minja,Patrick Minja,National Staff,Programme Manager,G4,Programmes,CC-PRG-EDU,2383728,TZS,Permanent,2021-04-23,,LOC-MAN-001,True,19960619-6123-34-30885
