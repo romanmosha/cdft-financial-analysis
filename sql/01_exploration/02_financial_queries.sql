@@ -1,0 +1,9 @@
+-- ============================================================
+-- Project:     CDFT Financial Management Information System
+-- File:        02_financial_queries.sql
+-- Stage:       Financial Analysis Queries
+-- Author:      Roman Mosha
+-- Date:        03/08/2026
+-- Description: Budget, expenditure, procurement and vendor
+--              queries answering key financial business questions
+-- ============================================================
