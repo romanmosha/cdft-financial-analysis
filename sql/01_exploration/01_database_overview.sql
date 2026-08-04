@@ -32,3 +32,6 @@ ORDER BY total_spent DESC;
 -- Health Centre Rehabilitation Moshi is lowest at TZS 409,416,000
 -- which is unusual for a construction project and warrants
 -- further investigation.
+-- CORRECTION NOTE: Initial version of Query 1 used amount_usd 
+-- instead of amount_original (TZS). Corrected to amount_original
+-- for accurate local currency reporting. Date corrected: 03/08/2026
