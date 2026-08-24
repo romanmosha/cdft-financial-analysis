@@ -21,7 +21,8 @@ ORDER BY table_name;
 
 SELECT 
     pr.project_name,
-    SUM(e.amount_original) AS total_spent
+    SUM(e.amount_original) AS total_spent,
+    ROW_NUMBER() OVER(ORDER BY SUM(e.amount_original) DESC) AS Rank
 FROM fact_expenditure e
 JOIN dim_project pr ON e.project_id = pr.project_id
 GROUP BY pr.project_name
