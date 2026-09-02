@@ -29,7 +29,7 @@ ORDER BY dfp.month_number;
 
 -- Query 3 Spending by activity category --
 -- What categories of spending consume most of CDFT's budget?--
-SELECT COALESCE(da.activity_name, 'Unallocated/Unknown') COUNT(*) AS No_Transc, SUM(fe.amount_original) AS Total_Expanditure, ROUND(AVG(fe.amount_original),0) AS Avg_expanditure,
+SELECT COALESCE(da.activity_name, 'Unallocated/Unknown'), COUNT(*) AS No_Transc, SUM(fe.amount_original) AS Total_Expanditure, ROUND(AVG(fe.amount_original),0) AS Avg_expanditure,
 ROUND(SUM(fe.amount_original)/SUM(SUM(fe.amount_original)) OVER()*100,2) AS Percentage_of_total_expanditure
 FROM dim_activity da 
 LEFT JOIN fact_expenditure fe ON da.activity_id = fe.activity_id 
