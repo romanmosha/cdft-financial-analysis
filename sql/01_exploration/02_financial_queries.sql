@@ -28,9 +28,9 @@ ORDER BY dfp.month_number;
 -- Session Date: 04/08/2026
 
 -- Query 3 Spending by activity category --
--- What categories of spending consume most of CDFT's budget?--
-SELECT COALESCE(da.activity_name, 'Unallocated/Unknown'), COUNT(*) AS No_Transc, SUM(fe.amount_original) AS Total_Expanditure, ROUND(AVG(fe.amount_original),0) AS Avg_expanditure,
-ROUND(SUM(fe.amount_original)/SUM(SUM(fe.amount_original)) OVER()*100,2) AS Percentage_of_total_expanditure
+-- Which programme activities consume most of CDFT's budget?--
+SELECT COALESCE(da.activity_name, 'Unallocated/Unknown'), COUNT(*) AS No_Transc, SUM(fe.amount_original) AS Total_Expenditure, ROUND(AVG(fe.amount_original),0) AS Avg_expenditure,
+ROUND(SUM(fe.amount_original)/SUM(SUM(fe.amount_original)) OVER()*100,2) AS Percentage_of_total_expenditure
 FROM dim_activity da 
 LEFT JOIN fact_expenditure fe ON da.activity_id = fe.activity_id 
 GROUP BY da.activity_name
@@ -46,4 +46,7 @@ ORDER BY SUM(fe.amount_original ) DESC;
 -- single category accounting for a dominant share of the budget.
 -- Session Date: 02/09/2026
 
-
+SELECT transaction_type, SUM(amount_original) AS Total_transactions
+FROM fact_expenditure
+GROUP BY transaction_type 
+ORDER BY SUM(amount_original) DESC;
