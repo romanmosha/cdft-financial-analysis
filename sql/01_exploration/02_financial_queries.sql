@@ -46,7 +46,19 @@ ORDER BY SUM(fe.amount_original ) DESC;
 -- single category accounting for a dominant share of the budget.
 -- Session Date: 02/09/2026
 
-SELECT transaction_type, SUM(amount_original) AS Total_transactions
+-- Query 3 — Expenditure by transaction type
+-- Business question: What categories of spending consume most of CDFT's budget?
+SELECT transaction_type, COUNT(*) AS Transactions,SUM(amount_original) AS Total_transactions,AVG(amount_original ) 
+AS avg_transactions, ROUND((SUM(amount_original) / SUM(SUM(amount_original))OVER())*100,2) AS pct_of_total_expenditure
 FROM fact_expenditure
 GROUP BY transaction_type 
-ORDER BY SUM(amount_original) DESC;
+ORDER BY Total_transactions DESC;
+-- SUMMARY FINDINGS:
+-- 1. Heavy Top-End Concentration: Salary (36.63%) & ICT (13.64%) constitute >50% of total spend.
+-- 2. Fixed Overhead vs Field Activity: Overhead (Payroll, Rent, ICT, Consultancy)
+-- 	  = ~66.7% vs Direct Program Spend = <20%.
+-- 3. High Unit Cost: Consultancy fees average 3.4x the unit cost of Facilitator fees despite similar 
+--    transaction volume (~450-490 count).
+-- 4. Transaction Clustering: Operational categories average ~470 transactions each, signaling structured 
+--    periodic disbursement cycles.
+
