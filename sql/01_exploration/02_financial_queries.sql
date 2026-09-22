@@ -61,4 +61,12 @@ ORDER BY Total_transactions DESC;
 --    transaction volume (~450-490 count).
 -- 4. Transaction Clustering: Operational categories average ~470 transactions each, signaling structured 
 --    periodic disbursement cycles.
+ 
+-- DISTRIBUTION
+WITH percent_rank AS (SELECT amount_original, PERCENT_RANK() OVER (ORDER BY amount_original) AS pct
+FROM fact_expenditure)
 
+SELECT 
+MAX(CASE WHEN  pct<=0.25 THEN amount_original END) AS lower_quartile,
+MAX(CASE WHEN pct<=0.25 THEN pct END) AS pct
+FROM percent_rank;
