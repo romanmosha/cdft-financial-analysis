@@ -62,11 +62,29 @@ ORDER BY Total_transactions DESC;
 -- 4. Transaction Clustering: Operational categories average ~470 transactions each, signaling structured 
 --    periodic disbursement cycles.
  
--- DISTRIBUTION
-WITH percent_rank AS (SELECT amount_original, PERCENT_RANK() OVER (ORDER BY amount_original) AS pct
-FROM fact_expenditure)
 
-SELECT 
-MAX(CASE WHEN  pct<=0.25 THEN amount_original END) AS lower_quartile,
-MAX(CASE WHEN pct<=0.25 THEN pct END) AS pct
-FROM percent_rank;
+
+
+WITH stats AS (
+    SELECT *,
+        -- Calculate Q1 and Q3 inline for every row
+        PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY amount_original) OVER () AS q1,
+        PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY amount_original) OVER () AS q3
+    FROM fact_expenditure
+),
+flagged AS ( SELECT expenditure_id, project_id, transaction_type, amount_original,transaction_date, posted_date,
+    CASE 
+        WHEN amount_original < 0 THEN 'Negative / Credit'
+        WHEN amount_original = 0 THEN 'Zero / Void'
+        WHEN amount_original > (q3 + (1.5 * (q3 - q1))) THEN 'High Outlier'
+        WHEN amount_original < (q1 - (1.5 * (q3 - q1))) THEN 'Low Outlier'
+    END AS flag_type
+FROM stats
+) 
+-- SELECT flag_type,COUNT(*)
+-- FROM flagged
+-- GROUP BY flag_type
+-- ORDER BY COUNT(*) DESC
+SELECT * FROM flagged
+WHERE flag_type IS NOT NULL;
+   
