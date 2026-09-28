@@ -78,6 +78,10 @@ No real organisation or individual is represented.*
 exploration. Queries progress from basic aggregations through 
 subqueries, CTEs and window functions as complexity increases.
 
+
+*This project is actively in progress. 
+Expected completion: October 2026*
+
 ## Author
 Roman Mosha 
 **LinkedIn :** www.linkedin.com/in/roman-mosha-264255a7
