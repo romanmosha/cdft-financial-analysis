@@ -1,5 +1,5 @@
 # cdft-financial-analysis
-End to end NGO financial analysis — MySQL, Excel Power Query, Power Pivot, DAX, Tableau
+End to end NGO financial analysis — MySQL, Tableau
 ## 📊 About the Data
 > **Data Privacy Note:** All data utilized in this project is **AI-synthesized mock data** generated specifically to simulate enterprise workloads, test edge cases, and showcase analytical workflows. No real-world proprietary or sensitive business data is exposed in this repository.
 
@@ -73,10 +73,25 @@ Financial Management Information System (FMIS).
 No real organisation or individual is represented.*
 
 ## Tools and Methodology
+**MySQL (XAMPP) + DBeaver** — Full pipeline: data profiling,
+cleaning via views, analysis and reporting queries.
+Covers subqueries, CTEs and window functions.
 
-**MySQL (XAMPP)** — Database setup, data import and SQL-based 
-exploration. Queries progress from basic aggregations through 
-subqueries, CTEs and window functions as complexity increases.
+**Tableau Public** — Executive dashboard connected directly
+to MySQL.
+
+## project structure
+cdft-financial-analysis/
+├── data/
+│   └── csv_files/
+├── sql/
+│   ├── 01_exploration/
+│   ├── 02_cleaning/     
+│   ├── 03_analysis/
+│   └── 04_advanced/
+├── tableau/
+├── documentation/
+└── README.md
 
 
 *This project is actively in progress. 
