@@ -8,7 +8,7 @@
 --              queries answering key financial business questions
 -- ============================================================
 
--- ── Query 2: Monthly spending trend ─────────────────────────
+-- ── Query 3: Monthly spending trend ─────────────────────────
 -- Business question: Is CDFT spending evenly across 2025 or
 -- are there concerning spikes or gaps in burn rate?
 
@@ -19,7 +19,11 @@ LEFT JOIN dim_fiscal_period dfp ON fe.period_id = dfp.period_id
 WHERE dfp.calendar_year = 2025
 GROUP BY dfp.period_id ,dfp.month_name ,dfp.month_number 
 ORDER BY dfp.month_number;
--- Finding: Monthly spend ranges from TZS 689M (July) to TZS 1.04B
+-- Findings:
+--
+-- PRELIMINARY: Based on uncleaned data. Subject to revision post-cleaning.
+-- 
+-- Monthly spend ranges from TZS 689M (July) to TZS 1.04B
 -- (October). October spike warrants investigation -- likely large
 -- procurement payments. June shows fewest transactions (537) but
 -- highest average transaction size (TZS 1,506,618) suggesting
@@ -27,7 +31,7 @@ ORDER BY dfp.month_number;
 -- with no alarming gaps or end-of-year panic spending
 -- Session Date: 04/08/2026
 
--- Query 3: Spending by activity category --
+-- Query 4: Spending by activity category --
 -- Which programme activities consume most of CDFT's budget?--
 SELECT COALESCE(da.activity_name, 'Unallocated/Unknown'), COUNT(*) AS No_Transc, SUM(fe.amount_original) AS Total_Expenditure, ROUND(AVG(fe.amount_original),0) AS Avg_expenditure,
 ROUND(SUM(fe.amount_original)/SUM(SUM(fe.amount_original)) OVER()*100,2) AS Percentage_of_total_expenditure
@@ -36,7 +40,11 @@ LEFT JOIN fact_expenditure fe ON da.activity_id = fe.activity_id
 GROUP BY da.activity_name
 ORDER BY SUM(fe.amount_original ) DESC;
 
--- Finding: Medical Supplies Procurement is the largest spending
+-- Findings:
+--
+-- PRELIMINARY: Based on uncleaned data. Subject to revision post-cleaning.
+-- 
+-- Medical Supplies Procurement is the largest spending
 -- category at TZS 730.2M (7.38% of total expenditure), followed
 -- by Facilitator Training Workshop at TZS 709.3M (7.17%) and
 -- Training of Community Health Workers at TZS 662.3M (6.69%).
@@ -46,14 +54,17 @@ ORDER BY SUM(fe.amount_original ) DESC;
 -- single category accounting for a dominant share of the budget.
 -- Session Date: 02/09/2026
 
--- Query 4: Expenditure by transaction type
+-- Query 5: Expenditure by transaction type
 -- Business question: What categories of spending consume most of CDFT's budget?
 SELECT transaction_type, COUNT(*) AS Transactions,SUM(amount_original) AS Total_transactions,AVG(amount_original ) 
 AS avg_transactions, ROUND((SUM(amount_original) / SUM(SUM(amount_original))OVER())*100,2) AS pct_of_total_expenditure
 FROM fact_expenditure
 GROUP BY transaction_type 
 ORDER BY Total_transactions DESC;
--- SUMMARY FINDINGS:
+-- FINDINGS:
+--
+-- PRELIMINARY: Based on uncleaned data. Subject to revision post-cleaning.
+--
 -- 1. Heavy Top-End Concentration: Salary (36.63%) & ICT (13.64%) constitute >50% of total spend.
 -- 2. Fixed Overhead vs Field Activity: Overhead (Payroll, Rent, ICT, Consultancy)
 -- 	  = ~66.7% vs Direct Program Spend = <20%.
@@ -63,7 +74,7 @@ ORDER BY Total_transactions DESC;
 --    periodic disbursement cycles.
  
 
--- Query 5: Negative values and data quality check
+-- Query 6: Negative values and data quality check
 
 -- Business question: "Does the expenditure data contain impossible or suspicious values that could 
 -- distort financial analysis — negative amounts, zero amounts, or extreme outliers?"
@@ -108,8 +119,11 @@ LIMIT 1;
 SELECT AVG(amount_original)
 FROM fact_expenditure
 
--- Finding: 6.6% of transactions (542/8,000) flagged.
+-- Finding: 
 --
+-- PRELIMINARY: Based on uncleaned data. Subject to revision post-cleaning.
+--
+-- 6.6% of transactions (542/8,000) flagged.
 -- High Outliers (531): Transactions above Tukey fence of
 -- TZS 3,720,625. Highest is TZS 110.3M salary payment on
 -- PRJ-2024-005 -- 30x the Q3 value. Verify against approved
@@ -123,3 +137,61 @@ FROM fact_expenditure
 --
 -- Recommendation: Finance team to review and approve treatment
 -- of 531 outliers before any financial KPI is published.
+
+-- Query 7: Spend by vendor
+-- Business question: Which vendor receive the most spend from CDFT and are they 
+-- due diligence approved, meaning are we paying compitent suppliers?
+
+SELECT v.vendor_name, v.vendor_type, COALESCE (sum(e.amount_original),0) AS total_paid, count(e.expenditure_id) AS no_of_transaction,
+(sum(e.amount_original)*100 / sum(sum(e.amount_original))  over()) AS percentage,v.due_diligence_status,
+v.is_blacklisted
+FROM dim_vendor v LEFT JOIN fact_expenditure e ON v.vendor_id = e.vendor_id
+GROUP BY v.vendor_type,v.vendor_name,v.due_diligence_status,v.is_blacklisted
+ORDER BY sum(e.amount_original) DESC, count(e.expenditure_id) DESC;
+
+-- Finding:
+--
+-- PRELIMINARY: Based on uncleaned data. Subject to revision post-cleaning.
+--
+-- Vendor spend analysis across 150 registered vendors.
+--
+-- RISK: 8 vendors with PENDING due diligence status have received
+-- payments. This violates standard NGO procurement policy which
+-- requires due diligence clearance before first payment.
+-- Finance team must resolve pending checks immediately and
+-- report to relevant donors if required by grant conditions
+--
+-- COMPLIANCE: 11 blacklisted vendors confirmed -- zero payments
+-- made to any blacklisted vendor. Controls are working.
+-- 
+-- SPEND DISTRIBUTION by vendor type: Suppliers receive 41% of total vendor spend,
+-- Consultants 29% -- consultant share warrants review against
+-- approved indirect cost rates.
+--
+-- TOP VENDORS : Northern Research and Consulting leads at
+-- TZS 140M (3.2% of total spend), followed by Savanna Office
+-- Supplies (1.8%) and Savanna Office Enterprise (1.64%).
+-- NOTE: Savanna Office Supplies and Savanna Office Enterprise
+-- may be duplicate vendor registrations for the same entity --
+-- flag for due diligence review and potential vendor merge.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
