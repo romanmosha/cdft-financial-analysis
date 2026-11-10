@@ -142,49 +142,44 @@ FROM fact_expenditure
 -- Business question: Which vendor receive the most spend from CDFT and are they 
 -- due diligence approved, meaning are we paying compitent suppliers?
 
-SELECT v.vendor_id, v.vendor_name, v.vendor_type, COALESCE (sum(e.amount_original),0) AS total_paid, count(e.expenditure_id) AS no_of_transaction,
-(sum(e.amount_original)*100 / sum(sum(e.amount_original))  over()) AS percentage,v.due_diligence_status,
-v.is_blacklisted
-FROM dim_vendor v LEFT JOIN fact_expenditure e ON v.vendor_id = e.vendor_id
-GROUP BY v.vendor_id,v.vendor_type,v.vendor_name,v.due_diligence_status,v.is_blacklisted
-ORDER BY COALESCE(sum(e.amount_original),0) DESC, count(e.expenditure_id) DESC;
+-- Query 7: Spend by vendor
+-- Business question: Which vendors receive the most spend from CDFT, and are they
+-- due diligence approved, i.e. are we paying competent suppliers?
 
--- Finding:
+SELECT
+    v.vendor_id,
+    v.vendor_name,
+    v.vendor_type,
+    v.due_diligence_status,
+    v.is_blacklisted,
+    COALESCE(SUM(e.amount_original), 0)       AS total_paid,
+    COUNT(e.expenditure_id)                   AS no_of_transactions,
+    ROUND(
+        COALESCE(SUM(e.amount_original), 0) * 100.0
+        / NULLIF(SUM(SUM(e.amount_original)) OVER (), 0), 2
+    )                                         AS pct_of_vendor_spend
+FROM dim_vendor v
+LEFT JOIN fact_expenditure e ON v.vendor_id = e.vendor_id
+GROUP BY v.vendor_id, v.vendor_name, v.vendor_type,
+         v.due_diligence_status, v.is_blacklisted
+ORDER BY total_paid DESC, no_of_transactions DESC;
+
+-- Finding (PRELIMINARY, uncleaned data; shares are of vendor-linked spend):
 --
--- PRELIMINARY: Based on uncleaned data. Subject to revision post-cleaning.
---
--- Vendor spend analysis across 150 registered vendors.
---
--- RISK: 8 vendors with PENDING due diligence status have received
--- payments. This violates standard NGO procurement policy which
--- requires due diligence clearance before first payment.
--- Finance team must resolve pending checks immediately and
--- report to relevant donors if required by grant conditions
---
--- COMPLIANCE: 11 blacklisted vendors confirmed -- zero payments
--- made to any blacklisted vendor. Controls are working.
--- 
--- SPEND DISTRIBUTION by vendor type: Suppliers receive 41% of total vendor spend,
--- Consultants 29% -- consultant share warrants review against
--- approved indirect cost rates.
---
--- TOP VENDORS : Northern Research and Consulting leads at
--- TZS 140M (3.2% of total spend), followed by Savanna Office
--- Supplies (1.8%) and Savanna Office Enterprise (1.64%).
--- NOTE: Savanna Office Supplies and Savanna Office Enterprise
--- may be duplicate vendor registrations for the same entity --
--- flag for due diligence review and potential vendor merge.
-
-
-
-
-
-
-
-
-
-
-
+-- LEADS FOR CLEANING / RE-TEST ON CLEAN DATA:
+-- 1. 8 vendors with PENDING due diligence status have received payments.
+--    Status is a current snapshot; payment-time status is unconfirmed.
+--    Quantify post-cleaning.
+-- 2. 11 blacklisted vendors show no payments against their IDs. Re-test
+--    after duplicate vendors are resolved.
+-- 3. Possible duplicate vendors: Savanna Office Supplies (1.77%) and
+--    Savanna Office Enterprises (1.65%). Add to the cleaning log for a
+--    merge decision.
+-- 4. Northern Research and Consulting leads at TZS 99.5M (2.30%);
+--    grouping by vendor_id reduced it from 140M. Check for the same name
+--    registered under two IDs.
+-- 5. Consultants rank second by spend; review against indirect cost limits
+--    after cleaning.
 
 
 
