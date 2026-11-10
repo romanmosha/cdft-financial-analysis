@@ -142,12 +142,12 @@ FROM fact_expenditure
 -- Business question: Which vendor receive the most spend from CDFT and are they 
 -- due diligence approved, meaning are we paying compitent suppliers?
 
-SELECT v.vendor_name, v.vendor_type, COALESCE (sum(e.amount_original),0) AS total_paid, count(e.expenditure_id) AS no_of_transaction,
+SELECT v.vendor_id, v.vendor_name, v.vendor_type, COALESCE (sum(e.amount_original),0) AS total_paid, count(e.expenditure_id) AS no_of_transaction,
 (sum(e.amount_original)*100 / sum(sum(e.amount_original))  over()) AS percentage,v.due_diligence_status,
 v.is_blacklisted
 FROM dim_vendor v LEFT JOIN fact_expenditure e ON v.vendor_id = e.vendor_id
-GROUP BY v.vendor_type,v.vendor_name,v.due_diligence_status,v.is_blacklisted
-ORDER BY sum(e.amount_original) DESC, count(e.expenditure_id) DESC;
+GROUP BY v.vendor_id,v.vendor_type,v.vendor_name,v.due_diligence_status,v.is_blacklisted
+ORDER BY COALESCE(sum(e.amount_original),0) DESC, count(e.expenditure_id) DESC;
 
 -- Finding:
 --
