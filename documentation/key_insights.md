@@ -1,50 +1,36 @@
-# CDFT Analysis — Key Insights
+# CDFT Analysis: Key Insights
 
-## Pre-Cleaning Validated Findings
--- NOTE: Findings below are preliminary and based on raw uncleaned
--- data. Numbers will be validated and confirmed after the SQL
--- cleaning phase is complete. Do not use for external reporting.
+> **Status:** Section 1 is PRELIMINARY, based on raw uncleaned data. Do not use for external reporting.
+> Section 2 is filled in after the cleaning phase, when key queries are re-run on clean data.
+> Percentages for vendors are share of vendor-linked spend, not total CDFT spend.
 
-## SQL Exploration Phase
+## 1. Preliminary findings (raw data)
 
-### Financial Findings
-- Malaria Rapid Diagnostic Testing Manyara is the highest 
-  spending project at TZS 604.6M
-- Health Centre Rehabilitation Moshi is lowest at TZS 409.4M
-  — unusual for a construction project, warrants investigation
-- Salary payments account for 36.6% of total expenditure 
-  at TZS 3.6B — dominant cost category as expected for an NGO
-- ICT Equipment ranks second at TZS 1.35B (13.6%) — unusually
-  high, may reflect unplanned capital purchases
-- October highest monthly spend at TZS 1.04B vs average TZS 824M
-  — procurement clustering pattern warrants investigation
- 
- ### Business question: Which vendor receive the most spend from CDFT and are they 
--- due diligence approved, meaning are we paying compitent suppliers?
-- RISK: 8 vendors with PENDING due diligence status have received payments. 
-  This violates standard NGO procurement policy which requires due diligence 
-  clearance before first payment.
-- Finance team must resolve pending checks immediately and report to relevant 
-  donors if required by grant conditions <br>
-- COMPLIANCE: 11 blacklisted vendors confirmed,zero payments
-  made to any blacklisted vendor. Controls are working.
+### 1.1 Financial
+- Malaria Rapid Diagnostic Testing Manyara is the highest spending project at TZS 604.6M.
+- Health Centre Rehabilitation Moshi is the lowest at TZS 409.4M. Lead: low for a construction project, investigate.
+- Salary payments are 36.6% of total expenditure (TZS 3.6B), the dominant cost category.
+- ICT Equipment ranks second at TZS 1.35B (13.6%). Lead: unusually high, check for capital purchases outside plan.
+- October has the highest monthly spend at TZS 1.04B vs a monthly average of TZS 824M. Lead: check for procurement clustering.
 
-- SPEND DISTRIBUTION by vendor type: Suppliers receive 41% of total vendor spend,
-  Consultants 29% -- consultant share warrants review against approved indirect cost rates.
+### 1.2 Vendors: who receives spend, and are they due-diligence approved?
+- 8 vendors with PENDING due diligence status have received payments. Status is a current snapshot, so status at payment time is unconfirmed. Quantify post-cleaning.
+- 11 vendors are blacklisted, with no payments recorded against their IDs. Re-test after duplicates are resolved.
+- Suppliers receive 41% of vendor spend and Consultants 29%. Review the consultant share against indirect cost limits after cleaning.
+- Top vendors: Northern Research and Consulting TZS 99.5M (2.30%), Savanna Office Supplies (1.77%), Savanna Office Enterprises (1.65%).
+- Lead: the two Savanna records may be one vendor (combined 3.42%, which would make them the largest). See cleaning log CL-001.
+- Lead: grouping by vendor_id reduced Northern from TZS 140M to 99.5M. Check whether one name is registered under two IDs. See CL-002.
 
-- TOP VENDORS : Northern Research and Consulting leads at TZS 140M (3.2% of total spend), 
-followed by Savanna Office Supplies (1.8%) and Savanna Office Enterprise (1.64%).
-- NOTE: Savanna Office Supplies and Savanna Office Enterprise may be duplicate vendor 
-registrations for the same entity flag for due diligence review and potential vendor merge.
+### 1.3 Data quality
+- 531 high outliers above the Tukey fence of TZS 3,720,625 (6.6% flag rate). Finance review needed before reporting. See CL-005.
+- 11 negative transactions that appear to be reversals. Confirm each matches an original transaction. See CL-006.
+- No zero-value transactions found.
 
+## 2. Validated findings (post-cleaning)
+*To be completed after the cleaning phase.*
 
-### Data Quality Findings
-- 531 high outliers identified above Tukey fence of TZS 3,720,625
-  — 6.6% flag rate requiring finance team review before reporting
-- 11 confirmed reversal transactions with negative values
-  — legitimate accounting entries, no action required
-- Zero value transactions: none found
-
-## Power Query Cleaning Phase
-*Pending*
-
+| Metric | Preliminary (raw) | Validated (clean) | Change and reason |
+|---|---|---|---|
+| Top vendor spend | | | |
+| PENDING vendors paid | 8 | | |
+| Outlier count | 531 | | |
