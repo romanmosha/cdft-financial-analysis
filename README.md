@@ -4,7 +4,7 @@ End to end NGO financial analysis — MySQL, Tableau
 > **Data Privacy Note:** All data utilized in this project is **AI-synthesized mock data** generated specifically to simulate enterprise workloads, test edge cases, and showcase analytical workflows. No real-world proprietary or sensitive business data is exposed in this repository.
 
 *This project is actively in progress. 
-Expected completion: October 2026*
+Expected completion: December 2026*
 
 ## Overview
 Community Development Foundation Tanzania (CDFT) is a fictional NGO 
