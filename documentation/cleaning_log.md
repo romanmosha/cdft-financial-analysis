@@ -1,13 +1,20 @@
 # Cleaning Log
 
-| ID | Table.column | Issue | Found by | Rows | Proposed rule | Decision | Status |
-|---|---|---|---|---|---|---|---|
-| CL-001 | dim_vendor.vendor_name | Savanna Office Supplies / Savanna Office Enterprises may be one vendor | Query 7 | | Compare TIN, bank, address; merge only if confirmed | | Suspected |
-| CL-002 | dim_vendor.vendor_id | Northern Research and Consulting may exist under two IDs | Query 7 (140M to 99.5M) | | Same check as CL-001 | | Suspected |
-| CL-003 | fact_expenditure.amount_original | Possible mixed currencies | Raised in Query 7 review | | Check currency columns; convert or split | | Suspected |
-| CL-004 | fact_expenditure.vendor_id | NULL vendor_id rows | Query 7 review | | Count and classify; keep, but report separately | | Suspected |
-| CL-005 | fact_expenditure.amount_original | 531 high outliers above TZS 3,720,625 | Exploration | 531 | Flag, don't remove; finance to review | | Open |
-| CL-006 | fact_expenditure.amount_original | 11 negative amounts (likely reversals) | Exploration | 11 | Confirm pairing, then keep | | Open |
-| CL-007 | dim_vendor.vendor_name | 14 exact duplicate vendor names (impacts 29 records), including specific duplicate pairs for 'Savanna Office Services' and 4 'Northern' entities | Task 3 (Duplicates Check) | 29 | Inspect underlying identifiers (TIN, registration, bank/contact) to confirm and merge exact duplicates | | Open |
-| CL-008 | dim_project.project_name | Zero exact duplicate project names found; business key uniqueness holds | Task 3 (Project Check) | 0 | None required; project business keys verified clean | | Confirmed Clean |
-| CL-009 | PKs and FKs across all tables | Zero NULLs detected across primary and foreign key columns | Task 3 (NULL Checks) | 0 | Structural key integrity confirmed; proceed to referential joins safely | | Confirmed Clean |
+Raw tables are never edited; fixes are applied in v_clean_ views.
+Status: Open > Decided > Fixed (in view) > Verified (or Closed: no issue).
+
+| ID | Table.column | Issue | Found by | Proposed rule | Decision | Status |
+|---|---|---|---|---|---|---|
+| CL-001 | 31 date columns across 11 tables (e.g. fact_expenditure.transaction_date, fact_procurement.po_date) | Dates stored as varchar | Step 2, column review | Check format in Step 3; convert to DATE in clean views; flag unparseable values | | Open |
+| CL-002 | 12 flag columns (is_blacklisted, is_reversal, preferred_vendor, is_active, etc.) | Flags stored as varchar; value variants unknown | Step 2, column review | Check distinct values in Step 3; standardise in views | | Open |
+| CL-003 | dim_asset.disposal_proceeds; fact_training pre_assessment_avg, post_assessment_avg, knowledge_gain_pct | Numeric values stored as varchar | Step 2, column review | Check for non-numeric entries; CAST in views | | Open |
+| CL-004 | fact_expenditure.amount_original (and ~10 tables with a currency column) | Multi-currency data: amount_original is in each row's own currency | Step 2, column review | Step 3: check original_currency values and exchange_rate; choose amount_usd or amount_grant_currency for cross-currency totals | | Open |
+| CL-005 | dim_vendor.bank_account (bigint), dim_budget_line.line_code (decimal) | Odd types: leading zeros lost; code stored as decimal | Step 2, column review | Low risk; keep, but note bank_account may not match across duplicate vendors if formatted differently | | Open |
+| CL-006 | dim_staff.national_id, phone, email; dim_vendor.phone, email | Personal data fields | Step 2, column review | Exclude from clean views and Tableau | | Open |
+| CL-007 | All tables (confirmed in dim_vendor.tax_id, dim_cost_centre.program_id, dim_procurement_status.next_status_id) | Missing values stored as empty strings, not NULL; earlier "zero NULLs" check was incomplete | Step 2, Task 3 | In views, convert '' to NULL with NULLIF; Step 3 profiles blanks in every column | | Open |
+| CL-008 | dim_vendor.tax_id | 6 vendors have no tax ID; all 144 non-blank values are unique, so no shared-TIN duplicates | Step 2, Task 3 | Keep; flag missing TIN in clean view; use bank_account/registration_number for duplicate matching in Step 4 | | Open |
+| CL-009 | dim_cost_centre.program_id | 2 of 8 cost centres have no program | Step 2, Task 3 | Check which ones in Task 4; likely shared/admin, keep | | Open |
+| CL-010 | fact_expenditure.vendor_id, staff_id | 66% of rows have no vendor and 76% have no staff; at least 3,334 rows (42%) have neither | Step 2, Task 3 | Expected for salaries; check transaction_type of the no-payee rows in Step 3; convert '' to NULL; report vendor analysis as % of vendor-linked spend | | Open |
+| CL-011 | fact_budget_allocation (grant, project, budget_line) | Covers 11/12 grants, 15/20 projects, 72/229 budget lines, while expenditure covers 12/20/229 | Step 2, Task 3 | Keep; decide at analysis stage which table holds the budget for budget-vs-actual | | Open |
+## Control totals
+13,139 rows across 18 tables (see sql/02_cleaning/01_baseline_counts.sql).

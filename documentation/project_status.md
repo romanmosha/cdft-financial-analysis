@@ -34,4 +34,5 @@ SQL first (exploration, cleaning, analysis, advanced), then Tableau, then decide
 See documentation/cleaning_log.md (CL-001 to CL-010 so far).
 
 ## Next step
-Step 2: profile structure and keys (column types, key uniqueness, orphan checks).
+Mon Nov 23: Task 3 Part B (double postings in fact_expenditure), Part C (procurement/expenditure link), then Task 4.
+Estimate: cleaning done ~Dec 1 (one day later than planned, since Step 2 took longer).
