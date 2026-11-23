@@ -106,7 +106,7 @@ ORDER BY TABLE_NAME, ORDINAL_POSITION;
 --   fact_expenditure.authorised_by, fact_expenditure.posted_by,
 --   fact_budget_allocation.approved_by, dim_fiscal_period.closed_by
 -- =========================
--- TASK 3: KEY UNIQUENES
+-- TASK 3: PART A: KEY UNIQUENES 
 -- =========================
 
 SELECT concat(
@@ -224,3 +224,29 @@ SELECT 'fact_training' AS table_name,'facilitator_id' AS key_col, COUNT(*) AS to
 -- Blanks are stored as '' not NULL (CL-007). 6 vendors have no tax_id; non-blank tax_ids all
 -- unique (CL-008). fact_expenditure: 66% of rows have no vendor, 76% no staff (CL-010).
 -- Part B (double postings) and Part C (procurement/expenditure link): pending.
+
+-- ================================
+-- TASK 3, PART B: DOUBLE POSTINGS
+-- ================================
+
+-- Reversal flag
+SELECT is_reversal,count(*) FROM fact_expenditure GROUP BY is_reversal;
+
+SELECT 
+	vendor_id, staff_id,project_id,transaction_date,amount_original ,original_currency ,description,count(*) AS row_count 
+FROM fact_expenditure
+WHERE COALESCE(is_reversal,'') <>'True'
+GROUP BY vendor_id, staff_id,project_id,transaction_date,amount_original ,original_currency ,description
+HAVING count(*)>1
+ORDER BY row_count DESC;
+
+-- inspecting 
+SELECT * 
+FROM fact_expenditure
+WHERE COALESCE(trim(is_reversal),'')<>'True'
+	AND project_id ='PRJ-2024-004'
+	AND transaction_date = '2025-02-25'
+	AND amount_original = 679000.0
+	AND original_currency = 'TZS'
+	AND description = 'Vehicle Fuel - PRJ-2024-004 - Feb 2025'
+ORDER BY expenditure_id ,posted_date;
