@@ -250,3 +250,42 @@ WHERE COALESCE(trim(is_reversal),'')<>'True'
 	AND original_currency = 'TZS'
 	AND description = 'Vehicle Fuel - PRJ-2024-004 - Feb 2025'
 ORDER BY expenditure_id ,posted_date;
+
+-- count flagged rows
+SELECT count(*) 
+FROM fact_expenditure 
+WHERE notes IS NOT NULL AND notes <>''
+;
+
+-- list all flagged rows
+SELECT expenditure_id, project_id,activity_id,transaction_date,transaction_type,vendor_id,staff_id, amount_original,
+	exchange_rate,amount_usd,description,document_reference
+FROM fact_expenditure 
+WHERE notes IS NOT NULL AND notes <>''
+
+-- FINDING TWIN DUPLICATES:
+
+-- project_id and amount_original
+
+SELECT  project_id, amount_original,
+	 count(*)
+FROM fact_expenditure 
+WHERE notes IS NOT NULL AND notes <>''
+GROUP BY project_id,amount_original
+;
+
+-- project_id and description
+SELECT  project_id, description,
+	 count(*) AS row_count
+FROM fact_expenditure 
+WHERE notes IS NOT NULL AND notes <>''
+GROUP BY project_id,description
+ORDER BY count(*) DESC
+
+-- project_id, transaction_type
+SELECT  project_id, transaction_type,
+	 count(*) AS row_count
+FROM fact_expenditure 
+WHERE notes IS NOT NULL AND notes <>''
+GROUP BY project_id, transaction_type
+ORDER BY count(*) DESC
